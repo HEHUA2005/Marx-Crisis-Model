@@ -2,7 +2,6 @@ import mesa
 import numpy as np
 import logging
 import pandas as pd
-from mesa import DataCollector
 import random
 
 
@@ -31,6 +30,14 @@ class Worker(mesa.Agent):
         if self.model.schedule.steps % 30 != 0 and self.employed:
             return
 
+        if self.wealth > 300:
+            logging.debug(
+                f"Worker {self.unique_id} is too rich to work, wealth: {self.wealth:.1f}"
+            )
+            if self.employed:
+                self.employed = False
+                self.factory.workers.remove(self)
+            return
         if not self.model.factory.hiring:
             if self.employed:
                 logging.debug(f"Worker {self.unique_id} keep job.")
