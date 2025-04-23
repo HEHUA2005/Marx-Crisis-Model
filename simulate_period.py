@@ -3,7 +3,7 @@ import logging
 import os
 import matplotlib.pyplot as plt
 import numpy as np
-from Agents import (
+from Agents_period import (
     Worker,
     Factory,
     Government,
@@ -72,6 +72,8 @@ class CrisisModel(mesa.Model):
     def step(self):
         self.steps += 1
 
+        if self.steps % 75 == 0:
+            self.gov.intervene()
         logging.info(f"\n=== Day {self.steps} ===")
 
         # 运行所有worker的step
@@ -119,15 +121,6 @@ class CrisisModel(mesa.Model):
         self.factory_wealths.append(f.wealth)
         self.market_sales.append(self.market.last_daily_sales)
         self.avg_happiness.append(avg_happiness)
-        # 检测经济周期阶段
-        if unemployment < 0.05:
-            phase = "Expansion"
-        elif unemployment < 0.2:
-            phase = "Recession"
-        else:
-            phase = "An economic crisis occurred!"
-
-        logging.info(f"Economic Phase: {phase}")
 
     def plot_statistics(self):
         # 绘制数据图
@@ -160,7 +153,7 @@ class CrisisModel(mesa.Model):
 
 def run_simulation():
     model = CrisisModel(N=50)
-    for i in range(365):  # 模拟天数
+    for i in range(565):  # 模拟天数
         model.step()
     model.plot_statistics()  # 绘制统计图
 

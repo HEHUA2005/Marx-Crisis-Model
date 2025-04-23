@@ -28,7 +28,7 @@ class Worker(mesa.Agent):
         return f"Worker {self.unique_id}: Wealth={self.wealth:.1f}, Employed={self.employed}"
 
     def choose_factory(self):
-        if self.model.schedule.steps % 30 != 0 and self.employed:
+        if self.employed:
             return
 
         if not self.model.factory.hiring:
@@ -58,7 +58,7 @@ class Worker(mesa.Agent):
 
     def consume(self):
         # 模拟必需品的消费，避免工厂不生产时，工人没有消费
-        self.wealth -= 1
+        self.wealth -= 2
         # 花钱购买产品 消费会增加Happiness
         price = self.model.market.prices
         self.relative_wealth = self.wealth / price
@@ -95,7 +95,7 @@ class Factory(mesa.Agent):
     def __init__(self, unique_id, model, pos):
         super().__init__(unique_id, model)
         self.pos = pos
-        self.wage = 50
+        self.wage = 15
         self.target_monthly_production = 0
         self.daily_production = 0
         self.last_daily_production = 0
@@ -182,7 +182,11 @@ class Government(mesa.Agent):
         self.last_intervention = 0
 
     def intervene(self):
+        self.model.factory.inventory *= 0.01
+        self.model.factory.wage = 30
+        self.model.factory.hiring = True
         self.model.market.prices = 20
+        self.model.factory.job_offer = 40
 
     def step(self):
         self.intervene()
