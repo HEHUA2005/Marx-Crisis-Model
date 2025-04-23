@@ -14,12 +14,12 @@ class Worker(mesa.Agent):
     def __init__(self, unique_id, model, pos):
         super().__init__(unique_id, model)
         self.home_pos = pos
-        self.wealth = random.randint(100, 200)  # 初始有100块积蓄
+        self.wealth = random.randint(0, 10)
         self.relative_wealth = 5
         self.employed = False  # 初始没有工作
         self.work_duration = 8  # 工作时长
         self.factory = None
-        self.happiness = 50  # 幸福值
+        self.happiness = 10  # 幸福值
         self.consumption_cycle = 1
         self.last_consumption = 0
 
@@ -30,7 +30,7 @@ class Worker(mesa.Agent):
         if self.model.schedule.steps % 30 != 0 and self.employed:
             return
 
-        if self.wealth > 300:
+        if self.wealth > 900:
             logging.debug(
                 f"Worker {self.unique_id} is too rich to work, wealth: {self.wealth:.1f}"
             )
@@ -69,7 +69,7 @@ class Worker(mesa.Agent):
         # 花钱购买产品 消费会增加Happiness
         price = self.model.market.prices
         self.relative_wealth = self.wealth / price
-        need = random.randint(1, 2)
+        need = random.randint(1, 3)
         if self.wealth - price * need >= 0 and self.model.factory.inventory > need:
             self.wealth -= price * need
             self.model.market.sell(need)
@@ -102,7 +102,7 @@ class Factory(mesa.Agent):
     def __init__(self, unique_id, model, pos):
         super().__init__(unique_id, model)
         self.pos = pos
-        self.wage = 15
+        self.wage = 40
         self.target_monthly_production = 0
         self.daily_production = 0
         self.last_daily_production = 0
@@ -112,7 +112,7 @@ class Factory(mesa.Agent):
         self.workers = []
         self.hiring = True
         self.wealth = 0
-        self.job_offer = 40
+        self.job_offer = 50
 
     def __str__(self):
         status = f"Production={self.production}, Workers={len(self.workers)}"
@@ -170,7 +170,7 @@ class Factory(mesa.Agent):
         self.monthly_production += self.daily_production
 
     def step(self):
-        self.adjust_production()
+        # self.adjust_production()
         self.produce()
 
 
@@ -250,7 +250,7 @@ class Market(mesa.Agent):
         self.monthly_sales += quantity
 
     def step(self):
-        self.update_prices()
+        # self.update_prices()
         self.last_daily_sales = self.daily_sales
         self.daily_sales = 0
         if self.model.steps % 30 == 0:

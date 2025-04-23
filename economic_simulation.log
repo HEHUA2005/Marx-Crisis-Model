@@ -1,1356 +1,4798 @@
-2025-04-24 00:29:53,424 [INFO] Starting simulation...
-2025-04-24 00:29:53,425 [INFO] ===== Initializing Economic Simulation =====
-2025-04-24 00:29:53,425 [INFO] Creating factory in (10, 10)
-2025-04-24 00:29:53,425 [INFO] Creating worker 0 at (6, 3)
-2025-04-24 00:29:53,425 [INFO] Creating worker 1 at (14, 12)
-2025-04-24 00:29:53,425 [INFO] Creating worker 2 at (16, 1)
-2025-04-24 00:29:53,425 [INFO] Creating worker 3 at (13, 1)
-2025-04-24 00:29:53,425 [INFO] Creating worker 4 at (8, 0)
-2025-04-24 00:29:53,425 [INFO] Creating worker 5 at (15, 16)
-2025-04-24 00:29:53,425 [INFO] Creating worker 6 at (14, 9)
-2025-04-24 00:29:53,425 [INFO] Creating worker 7 at (2, 18)
-2025-04-24 00:29:53,425 [INFO] Creating worker 8 at (18, 6)
-2025-04-24 00:29:53,425 [INFO] Creating worker 9 at (1, 3)
-2025-04-24 00:29:53,425 [INFO] Creating worker 10 at (9, 3)
-2025-04-24 00:29:53,425 [INFO] Creating worker 11 at (0, 0)
-2025-04-24 00:29:53,425 [INFO] Creating worker 12 at (1, 18)
-2025-04-24 00:29:53,425 [INFO] Creating worker 13 at (2, 16)
-2025-04-24 00:29:53,425 [INFO] Creating worker 14 at (9, 18)
-2025-04-24 00:29:53,425 [INFO] Creating worker 15 at (3, 5)
-2025-04-24 00:29:53,425 [INFO] Creating worker 16 at (4, 7)
-2025-04-24 00:29:53,425 [INFO] Creating worker 17 at (18, 5)
-2025-04-24 00:29:53,425 [INFO] Creating worker 18 at (11, 11)
-2025-04-24 00:29:53,425 [INFO] Creating worker 19 at (19, 19)
-2025-04-24 00:29:53,425 [INFO] Creating worker 20 at (13, 2)
-2025-04-24 00:29:53,425 [INFO] Creating worker 21 at (16, 4)
-2025-04-24 00:29:53,425 [INFO] Creating worker 22 at (3, 11)
-2025-04-24 00:29:53,425 [INFO] Creating worker 23 at (0, 16)
-2025-04-24 00:29:53,425 [INFO] Creating worker 24 at (10, 17)
-2025-04-24 00:29:53,425 [INFO] Creating worker 25 at (12, 16)
-2025-04-24 00:29:53,425 [INFO] Creating worker 26 at (4, 2)
-2025-04-24 00:29:53,425 [INFO] Creating worker 27 at (10, 8)
-2025-04-24 00:29:53,425 [INFO] Creating worker 28 at (19, 8)
-2025-04-24 00:29:53,425 [INFO] Creating worker 29 at (18, 0)
-2025-04-24 00:29:53,425 [INFO] Creating worker 30 at (15, 13)
-2025-04-24 00:29:53,425 [INFO] Creating worker 31 at (19, 5)
-2025-04-24 00:29:53,425 [INFO] Creating worker 32 at (16, 16)
-2025-04-24 00:29:53,425 [INFO] Creating worker 33 at (1, 9)
-2025-04-24 00:29:53,425 [INFO] Creating worker 34 at (17, 13)
-2025-04-24 00:29:53,425 [INFO] Creating worker 35 at (9, 9)
-2025-04-24 00:29:53,425 [INFO] Creating worker 36 at (18, 19)
-2025-04-24 00:29:53,425 [INFO] Creating worker 37 at (8, 15)
-2025-04-24 00:29:53,425 [INFO] Creating worker 38 at (6, 13)
-2025-04-24 00:29:53,425 [INFO] Creating worker 39 at (10, 18)
-2025-04-24 00:29:53,425 [INFO] Creating worker 40 at (10, 15)
-2025-04-24 00:29:53,425 [INFO] Creating worker 41 at (12, 18)
-2025-04-24 00:29:53,425 [INFO] Creating worker 42 at (4, 8)
-2025-04-24 00:29:53,425 [INFO] Creating worker 43 at (3, 7)
-2025-04-24 00:29:53,425 [INFO] Creating worker 44 at (14, 0)
-2025-04-24 00:29:53,425 [INFO] Creating worker 45 at (16, 14)
-2025-04-24 00:29:53,425 [INFO] Creating worker 46 at (2, 17)
-2025-04-24 00:29:53,425 [INFO] Creating worker 47 at (2, 2)
-2025-04-24 00:29:53,425 [INFO] Creating worker 48 at (8, 5)
-2025-04-24 00:29:53,426 [INFO] Creating worker 49 at (2, 1)
-2025-04-24 00:29:53,426 [INFO] 
+2025-04-24 01:13:21,724 [INFO] Starting simulation...
+2025-04-24 01:13:21,724 [INFO] ===== Initializing Economic Simulation =====
+2025-04-24 01:13:21,724 [INFO] Creating factory in (10, 10)
+2025-04-24 01:13:21,724 [INFO] Creating worker 0 at (9, 9)
+2025-04-24 01:13:21,724 [INFO] Creating worker 1 at (3, 17)
+2025-04-24 01:13:21,724 [INFO] Creating worker 2 at (6, 0)
+2025-04-24 01:13:21,724 [INFO] Creating worker 3 at (13, 13)
+2025-04-24 01:13:21,724 [INFO] Creating worker 4 at (19, 8)
+2025-04-24 01:13:21,724 [INFO] Creating worker 5 at (18, 18)
+2025-04-24 01:13:21,724 [INFO] Creating worker 6 at (19, 5)
+2025-04-24 01:13:21,724 [INFO] Creating worker 7 at (1, 15)
+2025-04-24 01:13:21,724 [INFO] Creating worker 8 at (16, 7)
+2025-04-24 01:13:21,724 [INFO] Creating worker 9 at (6, 15)
+2025-04-24 01:13:21,724 [INFO] Creating worker 10 at (2, 16)
+2025-04-24 01:13:21,724 [INFO] Creating worker 11 at (7, 5)
+2025-04-24 01:13:21,724 [INFO] Creating worker 12 at (18, 6)
+2025-04-24 01:13:21,724 [INFO] Creating worker 13 at (13, 2)
+2025-04-24 01:13:21,724 [INFO] Creating worker 14 at (12, 18)
+2025-04-24 01:13:21,724 [INFO] Creating worker 15 at (7, 10)
+2025-04-24 01:13:21,725 [INFO] Creating worker 16 at (9, 7)
+2025-04-24 01:13:21,725 [INFO] Creating worker 17 at (16, 13)
+2025-04-24 01:13:21,725 [INFO] Creating worker 18 at (3, 13)
+2025-04-24 01:13:21,725 [INFO] Creating worker 19 at (7, 6)
+2025-04-24 01:13:21,725 [INFO] Creating worker 20 at (18, 5)
+2025-04-24 01:13:21,725 [INFO] Creating worker 21 at (0, 4)
+2025-04-24 01:13:21,725 [INFO] Creating worker 22 at (1, 16)
+2025-04-24 01:13:21,725 [INFO] Creating worker 23 at (2, 10)
+2025-04-24 01:13:21,725 [INFO] Creating worker 24 at (10, 9)
+2025-04-24 01:13:21,725 [INFO] Creating worker 25 at (0, 16)
+2025-04-24 01:13:21,725 [INFO] Creating worker 26 at (1, 8)
+2025-04-24 01:13:21,725 [INFO] Creating worker 27 at (9, 19)
+2025-04-24 01:13:21,725 [INFO] Creating worker 28 at (13, 10)
+2025-04-24 01:13:21,725 [INFO] Creating worker 29 at (19, 4)
+2025-04-24 01:13:21,725 [INFO] Creating worker 30 at (3, 9)
+2025-04-24 01:13:21,725 [INFO] Creating worker 31 at (4, 7)
+2025-04-24 01:13:21,725 [INFO] Creating worker 32 at (0, 14)
+2025-04-24 01:13:21,725 [INFO] Creating worker 33 at (17, 14)
+2025-04-24 01:13:21,725 [INFO] Creating worker 34 at (7, 4)
+2025-04-24 01:13:21,725 [INFO] Creating worker 35 at (13, 17)
+2025-04-24 01:13:21,725 [INFO] Creating worker 36 at (1, 2)
+2025-04-24 01:13:21,725 [INFO] Creating worker 37 at (0, 2)
+2025-04-24 01:13:21,725 [INFO] Creating worker 38 at (4, 0)
+2025-04-24 01:13:21,725 [INFO] Creating worker 39 at (4, 13)
+2025-04-24 01:13:21,725 [INFO] Creating worker 40 at (1, 12)
+2025-04-24 01:13:21,725 [INFO] Creating worker 41 at (5, 10)
+2025-04-24 01:13:21,725 [INFO] Creating worker 42 at (0, 6)
+2025-04-24 01:13:21,725 [INFO] Creating worker 43 at (6, 8)
+2025-04-24 01:13:21,725 [INFO] Creating worker 44 at (8, 1)
+2025-04-24 01:13:21,725 [INFO] Creating worker 45 at (10, 7)
+2025-04-24 01:13:21,725 [INFO] Creating worker 46 at (9, 17)
+2025-04-24 01:13:21,725 [INFO] Creating worker 47 at (5, 16)
+2025-04-24 01:13:21,725 [INFO] Creating worker 48 at (7, 9)
+2025-04-24 01:13:21,725 [INFO] Creating worker 49 at (7, 19)
+2025-04-24 01:13:21,725 [INFO] 
 === Day 1 ===
-2025-04-24 00:29:53,426 [INFO] Market prices : 19.78125
-2025-04-24 00:29:53,426 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 160.0 
-- Daily GDP: 3165.0
-- Daily production: 160.0
-- Average workers' Wealth: 140.7
-- Factory wealth: 260.0
+2025-04-24 01:13:21,726 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 200.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 24.7
+- Factory wealth: -350.0
 - Market daily sales: 100.0
+- Average happiness: 12.0
 
-2025-04-24 00:29:53,426 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,426 [INFO] 
+2025-04-24 01:13:21,726 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,726 [INFO] 
 === Day 2 ===
-2025-04-24 00:29:53,426 [INFO] Market prices : 19.4103515625
-2025-04-24 00:29:53,427 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 160.0 
-- Daily GDP: 3105.7
-- Daily production: 160.0
-- Average workers' Wealth: 136.9
-- Factory wealth: 1700.8
-- Market daily sales: 160.0
+2025-04-24 01:13:21,726 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 260.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 35.7
+- Factory wealth: 100.0
+- Market daily sales: 140.0
+- Average happiness: 14.9
 
-2025-04-24 00:29:53,427 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,427 [INFO] 
+2025-04-24 01:13:21,726 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,726 [INFO] 
 === Day 3 ===
-2025-04-24 00:29:53,427 [INFO] Market prices : 19.4103515625
-2025-04-24 00:29:53,427 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 160.0 
-- Daily GDP: 3105.7
-- Daily production: 160.0
-- Average workers' Wealth: 133.3
-- Factory wealth: 3108.9
-- Market daily sales: 160.0
+2025-04-24 01:13:21,727 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 256.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 33.9
+- Factory wealth: 1830.0
+- Market daily sales: 204.0
+- Average happiness: 18.6
 
-2025-04-24 00:29:53,427 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,427 [INFO] 
+2025-04-24 01:13:21,727 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,727 [INFO] 
 === Day 4 ===
-2025-04-24 00:29:53,427 [INFO] Market prices : 19.312209335498597
-2025-04-24 00:29:53,427 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 178.0 
-- Daily GDP: 3090.0
-- Daily production: 160.0
-- Average workers' Wealth: 132.7
-- Factory wealth: 4167.6
-- Market daily sales: 142.0
+2025-04-24 01:13:21,727 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 292.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 40.1
+- Factory wealth: 2760.0
+- Market daily sales: 164.0
+- Average happiness: 22.2
 
-2025-04-24 00:29:53,427 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,428 [INFO] 
+2025-04-24 01:13:21,727 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,727 [INFO] 
 === Day 5 ===
-2025-04-24 00:29:53,428 [INFO] Market prices : 19.02539434536743
-2025-04-24 00:29:53,428 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 202.0 
-- Daily GDP: 3044.1
-- Daily production: 160.0
-- Average workers' Wealth: 133.4
-- Factory wealth: 5103.6
-- Market daily sales: 136.0
+2025-04-24 01:13:21,728 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 312.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 43.1
+- Factory wealth: 4010.0
+- Market daily sales: 180.0
+- Average happiness: 25.7
 
-2025-04-24 00:29:53,428 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,428 [INFO] 
+2025-04-24 01:13:21,728 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,728 [INFO] 
 === Day 6 ===
-2025-04-24 00:29:53,428 [INFO] Market prices : 18.684373125969334
-2025-04-24 00:29:53,428 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 212.0 
-- Daily GDP: 2989.5
-- Daily production: 160.0
-- Average workers' Wealth: 131.6
-- Factory wealth: 6287.5
-- Market daily sales: 150.0
+2025-04-24 01:13:21,728 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 326.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 44.9
+- Factory wealth: 5380.0
+- Market daily sales: 186.0
+- Average happiness: 29.3
 
-2025-04-24 00:29:53,428 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,428 [INFO] 
+2025-04-24 01:13:21,728 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,728 [INFO] 
 === Day 7 ===
-2025-04-24 00:29:53,429 [INFO] Market prices : 18.31979999180408
-2025-04-24 00:29:53,429 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 246.0 
-- Daily GDP: 2931.2
-- Daily production: 160.0
-- Average workers' Wealth: 134.5
-- Factory wealth: 6996.5
-- Market daily sales: 126.0
+2025-04-24 01:13:21,729 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 330.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 44.7
+- Factory wealth: 6950.0
+- Market daily sales: 196.0
+- Average happiness: 33.2
 
-2025-04-24 00:29:53,429 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,429 [INFO] 
+2025-04-24 01:13:21,729 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,729 [INFO] 
 === Day 8 ===
-2025-04-24 00:29:53,429 [INFO] Market prices : 17.816005492029465
-2025-04-24 00:29:53,429 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 280.0 
-- Daily GDP: 2850.6
-- Daily production: 160.0
-- Average workers' Wealth: 137.3
-- Factory wealth: 7685.8
-- Market daily sales: 126.0
+2025-04-24 01:13:21,729 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 356.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 48.9
+- Factory wealth: 8080.0
+- Market daily sales: 174.0
+- Average happiness: 36.7
 
-2025-04-24 00:29:53,429 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,429 [INFO] 
+2025-04-24 01:13:21,729 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,729 [INFO] 
 === Day 9 ===
-2025-04-24 00:29:53,430 [INFO] Market prices : 17.27377923792422
-2025-04-24 00:29:53,430 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 322.0 
-- Daily GDP: 2763.8
-- Daily production: 160.0
-- Average workers' Wealth: 141.7
-- Factory wealth: 8205.3
-- Market daily sales: 118.0
+2025-04-24 01:13:21,730 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 368.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 50.3
+- Factory wealth: 9490.0
+- Market daily sales: 188.0
+- Average happiness: 40.5
 
-2025-04-24 00:29:53,430 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,430 [INFO] 
+2025-04-24 01:13:21,730 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,730 [INFO] 
 === Day 10 ===
-2025-04-24 00:29:53,430 [INFO] Market prices : 16.691624247032852
-2025-04-24 00:29:53,430 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 362.0 
-- Daily GDP: 2670.7
-- Daily production: 160.0
-- Average workers' Wealth: 145.6
-- Factory wealth: 8734.5
-- Market daily sales: 120.0
+2025-04-24 01:13:21,730 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 384.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 52.5
+- Factory wealth: 10820.0
+- Market daily sales: 184.0
+- Average happiness: 44.1
 
-2025-04-24 00:29:53,430 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,430 [INFO] 
+2025-04-24 01:13:21,730 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,730 [INFO] 
 === Day 11 ===
-2025-04-24 00:29:53,430 [INFO] Market prices : 16.10371728463736
-2025-04-24 00:29:53,431 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 406.0 
-- Daily GDP: 2576.6
-- Daily production: 160.0
-- Average workers' Wealth: 150.1
-- Factory wealth: 9168.9
-- Market daily sales: 116.0
+2025-04-24 01:13:21,731 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 392.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 53.1
+- Factory wealth: 12310.0
+- Market daily sales: 192.0
+- Average happiness: 47.9
 
-2025-04-24 00:29:53,431 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,431 [INFO] 
+2025-04-24 01:13:21,731 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,731 [INFO] 
 === Day 12 ===
-2025-04-24 00:29:53,431 [INFO] Market prices : 15.505172040429597
-2025-04-24 00:29:53,431 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 452.0 
-- Daily GDP: 2480.8
-- Daily production: 160.0
-- Average workers' Wealth: 154.8
-- Factory wealth: 9545.2
-- Market daily sales: 114.0
+2025-04-24 01:13:21,731 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 426.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 58.9
+- Factory wealth: 13280.0
+- Market daily sales: 166.0
+- Average happiness: 51.5
 
-2025-04-24 00:29:53,431 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,431 [INFO] 
+2025-04-24 01:13:21,731 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,731 [INFO] 
 === Day 13 ===
-2025-04-24 00:29:53,431 [INFO] Market prices : 14.912515671115655
-2025-04-24 00:29:53,431 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 484.0 
-- Daily GDP: 2386.0
-- Daily production: 160.0
-- Average workers' Wealth: 157.1
-- Factory wealth: 10113.5
-- Market daily sales: 128.0
+2025-04-24 01:13:21,732 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 452.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 63.1
+- Factory wealth: 14410.0
+- Market daily sales: 174.0
+- Average happiness: 54.8
 
-2025-04-24 00:29:53,431 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,431 [INFO] 
+2025-04-24 01:13:21,732 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,732 [INFO] 
 === Day 14 ===
-2025-04-24 00:29:53,432 [INFO] Market prices : 14.349725328738302
-2025-04-24 00:29:53,432 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 522.0 
-- Daily GDP: 2296.0
-- Daily production: 160.0
-- Average workers' Wealth: 160.3
-- Factory wealth: 10559.2
-- Market daily sales: 122.0
+2025-04-24 01:13:21,732 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 442.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 60.1
+- Factory wealth: 16260.0
+- Market daily sales: 210.0
+- Average happiness: 58.6
 
-2025-04-24 00:29:53,432 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,432 [INFO] 
+2025-04-24 01:13:21,732 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,732 [INFO] 
 === Day 15 ===
-2025-04-24 00:29:53,432 [INFO] Market prices : 13.787992308752104
-2025-04-24 00:29:53,432 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 562.0 
-- Daily GDP: 2206.1
-- Daily production: 160.0
-- Average workers' Wealth: 163.5
-- Factory wealth: 10947.9
-- Market daily sales: 120.0
+2025-04-24 01:13:21,733 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 454.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 61.5
+- Factory wealth: 17670.0
+- Market daily sales: 188.0
+- Average happiness: 62.1
 
-2025-04-24 00:29:53,432 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,432 [INFO] 
+2025-04-24 01:13:21,733 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,733 [INFO] 
 === Day 16 ===
-2025-04-24 00:29:53,433 [INFO] Market prices : 13.236933753268532
-2025-04-24 00:29:53,433 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 598.0 
-- Daily GDP: 2117.9
-- Daily production: 160.0
-- Average workers' Wealth: 166.1
-- Factory wealth: 11364.9
-- Market daily sales: 124.0
+2025-04-24 01:13:21,733 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 476.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 64.9
+- Factory wealth: 18880.0
+- Market daily sales: 178.0
+- Average happiness: 65.8
 
-2025-04-24 00:29:53,433 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,433 [INFO] 
+2025-04-24 01:13:21,734 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,734 [INFO] 
 === Day 17 ===
-2025-04-24 00:29:53,433 [INFO] Market prices : 12.703319861339894
-2025-04-24 00:29:53,433 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 640.0 
-- Daily GDP: 2032.5
-- Daily production: 160.0
-- Average workers' Wealth: 169.3
-- Factory wealth: 11673.8
-- Market daily sales: 118.0
+2025-04-24 01:13:21,734 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 476.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 63.9
+- Factory wealth: 20530.0
+- Market daily sales: 200.0
+- Average happiness: 69.7
 
-2025-04-24 00:29:53,433 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,433 [INFO] 
+2025-04-24 01:13:21,734 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,734 [INFO] 
 === Day 18 ===
-2025-04-24 00:29:53,434 [INFO] Market prices : 12.179355036198574
-2025-04-24 00:29:53,434 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 674.0 
-- Daily GDP: 1948.7
-- Daily production: 160.0
-- Average workers' Wealth: 171.4
-- Factory wealth: 12059.8
-- Market daily sales: 126.0
+2025-04-24 01:13:21,734 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 488.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 65.3
+- Factory wealth: 21940.0
+- Market daily sales: 188.0
+- Average happiness: 73.4
 
-2025-04-24 00:29:53,434 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,434 [INFO] 
+2025-04-24 01:13:21,735 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,735 [INFO] 
 === Day 19 ===
-2025-04-24 00:29:53,434 [INFO] Market prices : 11.677253491530777
-2025-04-24 00:29:53,434 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 718.0 
-- Daily GDP: 1868.4
-- Daily production: 160.0
-- Average workers' Wealth: 174.5
-- Factory wealth: 12295.7
-- Market daily sales: 116.0
+2025-04-24 01:13:21,735 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 486.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 63.9
+- Factory wealth: 23630.0
+- Market daily sales: 202.0
+- Average happiness: 77.1
 
-2025-04-24 00:29:53,434 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,434 [INFO] 
+2025-04-24 01:13:21,735 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,735 [INFO] 
 === Day 20 ===
-2025-04-24 00:29:53,435 [INFO] Market prices : 11.183215843812167
-2025-04-24 00:29:53,435 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 754.0 
-- Daily GDP: 1789.3
-- Daily production: 160.0
-- Average workers' Wealth: 176.6
-- Factory wealth: 12602.9
-- Market daily sales: 124.0
+2025-04-24 01:13:21,736 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 498.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 65.3
+- Factory wealth: 25040.0
+- Market daily sales: 188.0
+- Average happiness: 81.0
 
-2025-04-24 00:29:53,435 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,435 [INFO] 
+2025-04-24 01:13:21,736 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,736 [INFO] 
 === Day 21 ===
-2025-04-24 00:29:53,435 [INFO] Market prices : 10.711379910855356
-2025-04-24 00:29:53,435 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 794.0 
-- Daily GDP: 1713.8
-- Daily production: 160.0
-- Average workers' Wealth: 179.0
-- Factory wealth: 12839.7
-- Market daily sales: 120.0
+2025-04-24 01:13:21,736 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 510.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 66.7
+- Factory wealth: 26450.0
+- Market daily sales: 188.0
+- Average happiness: 84.8
 
-2025-04-24 00:29:53,435 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,435 [INFO] 
+2025-04-24 01:13:21,736 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,736 [INFO] 
 === Day 22 ===
-2025-04-24 00:29:53,435 [INFO] Market prices : 10.252871202441044
-2025-04-24 00:29:53,436 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 834.0 
-- Daily GDP: 1640.5
-- Daily production: 160.0
-- Average workers' Wealth: 181.3
-- Factory wealth: 13053.8
-- Market daily sales: 120.0
+2025-04-24 01:13:21,737 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 516.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 66.9
+- Factory wealth: 27980.0
+- Market daily sales: 194.0
+- Average happiness: 88.8
 
-2025-04-24 00:29:53,436 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,436 [INFO] 
+2025-04-24 01:13:21,737 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,737 [INFO] 
 === Day 23 ===
-2025-04-24 00:29:53,436 [INFO] Market prices : 9.810292821378953
-2025-04-24 00:29:53,436 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 878.0 
-- Daily GDP: 1569.6
-- Daily production: 160.0
-- Average workers' Wealth: 183.8
-- Factory wealth: 13205.0
-- Market daily sales: 116.0
+2025-04-24 01:13:21,737 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 512.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 65.1
+- Factory wealth: 29710.0
+- Market daily sales: 204.0
+- Average happiness: 92.6
 
-2025-04-24 00:29:53,436 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,436 [INFO] 
+2025-04-24 01:13:21,737 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,737 [INFO] 
 === Day 24 ===
-2025-04-24 00:29:53,436 [INFO] Market prices : 9.38162567853174
-2025-04-24 00:29:53,436 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 920.0 
-- Daily GDP: 1501.1
-- Daily production: 160.0
-- Average workers' Wealth: 186.0
-- Factory wealth: 13356.2
-- Market daily sales: 118.0
+2025-04-24 01:13:21,738 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 532.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 68.1
+- Factory wealth: 30960.0
+- Market daily sales: 180.0
+- Average happiness: 96.2
 
-2025-04-24 00:29:53,436 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,436 [INFO] 
+2025-04-24 01:13:21,738 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,738 [INFO] 
 === Day 25 ===
-2025-04-24 00:29:53,437 [INFO] Market prices : 8.970202302421129
-2025-04-24 00:29:53,437 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 960.0 
-- Daily GDP: 1435.2
-- Daily production: 160.0
-- Average workers' Wealth: 187.8
-- Factory wealth: 13506.6
-- Market daily sales: 120.0
+2025-04-24 01:13:21,738 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 550.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 70.7
+- Factory wealth: 32250.0
+- Market daily sales: 182.0
+- Average happiness: 99.9
 
-2025-04-24 00:29:53,437 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,437 [INFO] 
+2025-04-24 01:13:21,738 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,738 [INFO] 
 === Day 26 ===
-2025-04-24 00:29:53,437 [INFO] Market prices : 8.575729550567669
-2025-04-24 00:29:53,437 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 996.0 
-- Daily GDP: 1372.1
-- Daily production: 160.0
-- Average workers' Wealth: 189.2
-- Factory wealth: 13673.0
-- Market daily sales: 124.0
+2025-04-24 01:13:21,739 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 550.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 69.7
+- Factory wealth: 33900.0
+- Market daily sales: 200.0
+- Average happiness: 103.7
 
-2025-04-24 00:29:53,437 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,437 [INFO] 
+2025-04-24 01:13:21,739 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,739 [INFO] 
 === Day 27 ===
-2025-04-24 00:29:53,438 [INFO] Market prices : 8.198265006643068
-2025-04-24 00:29:53,438 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 1036.0 
-- Daily GDP: 1311.7
-- Daily production: 160.0
-- Average workers' Wealth: 190.9
-- Factory wealth: 13784.6
-- Market daily sales: 120.0
+2025-04-24 01:13:21,739 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 564.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 71.5
+- Factory wealth: 35270.0
+- Market daily sales: 186.0
+- Average happiness: 107.3
 
-2025-04-24 00:29:53,438 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,438 [INFO] 
+2025-04-24 01:13:21,739 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,739 [INFO] 
 === Day 28 ===
-2025-04-24 00:29:53,438 [INFO] Market prices : 7.833813484628712
-2025-04-24 00:29:53,438 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 1082.0 
-- Daily GDP: 1253.4
-- Daily production: 160.0
-- Average workers' Wealth: 192.9
-- Factory wealth: 13829.0
-- Market daily sales: 114.0
+2025-04-24 01:13:21,740 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 586.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 74.9
+- Factory wealth: 36480.0
+- Market daily sales: 178.0
+- Average happiness: 111.1
 
-2025-04-24 00:29:53,438 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,438 [INFO] 
+2025-04-24 01:13:21,740 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,740 [INFO] 
 === Day 29 ===
-2025-04-24 00:29:53,439 [INFO] Market prices : 7.482206057131911
-2025-04-24 00:29:53,439 [INFO] Economy Summary:
-- Unemployment: 20.0%
-- Inventory: 1114.0 
-- Daily GDP: 1197.2
-- Daily production: 160.0
-- Average workers' Wealth: 193.6
-- Factory wealth: 13967.7
-- Market daily sales: 128.0
+2025-04-24 01:13:21,740 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 582.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 73.1
+- Factory wealth: 38210.0
+- Market daily sales: 204.0
+- Average happiness: 115.1
 
-2025-04-24 00:29:53,439 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,439 [INFO] 
+2025-04-24 01:13:21,740 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,740 [INFO] 
 === Day 30 ===
-2025-04-24 00:29:53,439 [INFO] Factory 0 adjusted production ratio: 0.9849137920583755  
-2025-04-24 00:29:53,439 [INFO] Market prices : 7.14937689114225
-2025-04-24 00:29:53,439 [INFO] Economy Summary:
-- Unemployment: 22.0%
-- Inventory: 1160.0 
-- Daily GDP: 1115.3
-- Daily production: 156.0
-- Average workers' Wealth: 195.7
-- Factory wealth: 13970.5
-- Market daily sales: 110.0
+2025-04-24 01:13:21,741 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 606.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 76.9
+- Factory wealth: 39380.0
+- Market daily sales: 176.0
+- Average happiness: 118.4
 
-2025-04-24 00:29:53,439 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,439 [INFO] 
+2025-04-24 01:13:21,741 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,741 [INFO] 
 === Day 31 ===
-2025-04-24 00:29:53,439 [INFO] Market prices : 6.825982199879142
-2025-04-24 00:29:53,439 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1154.0 
-- Daily GDP: 819.1
-- Daily production: 120.0
-- Average workers' Wealth: 193.8
-- Factory wealth: 14190.2
-- Market daily sales: 126.0
+2025-04-24 01:13:21,741 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 614.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 77.5
+- Factory wealth: 40870.0
+- Market daily sales: 192.0
+- Average happiness: 122.0
 
-2025-04-24 00:29:53,440 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,440 [INFO] 
+2025-04-24 01:13:21,741 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,741 [INFO] 
 === Day 32 ===
-2025-04-24 00:29:53,440 [INFO] Market prices : 6.5218192624752005
-2025-04-24 00:29:53,440 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1158.0 
-- Daily GDP: 782.6
-- Daily production: 120.0
-- Average workers' Wealth: 192.6
-- Factory wealth: 14318.4
-- Market daily sales: 116.0
+2025-04-24 01:13:21,742 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 632.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 80.1
+- Factory wealth: 42160.0
+- Market daily sales: 182.0
+- Average happiness: 125.6
 
-2025-04-24 00:29:53,440 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,440 [INFO] 
+2025-04-24 01:13:21,742 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,742 [INFO] 
 === Day 33 ===
-2025-04-24 00:29:53,440 [INFO] Market prices : 6.228337395663816
-2025-04-24 00:29:53,440 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1160.0 
-- Daily GDP: 747.4
-- Daily production: 120.0
-- Average workers' Wealth: 191.2
-- Factory wealth: 14440.8
-- Market daily sales: 118.0
+2025-04-24 01:13:21,742 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 636.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 79.9
+- Factory wealth: 43730.0
+- Market daily sales: 196.0
+- Average happiness: 129.5
 
-2025-04-24 00:29:53,440 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,440 [INFO] 
+2025-04-24 01:13:21,742 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,742 [INFO] 
 === Day 34 ===
-2025-04-24 00:29:53,441 [INFO] Market prices : 5.9488191288618895
-2025-04-24 00:29:53,441 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1152.0 
-- Daily GDP: 713.9
-- Daily production: 120.0
-- Average workers' Wealth: 189.3
-- Factory wealth: 14606.7
-- Market daily sales: 128.0
+2025-04-24 01:13:21,743 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 656.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 82.9
+- Factory wealth: 44980.0
+- Market daily sales: 180.0
+- Average happiness: 133.3
 
-2025-04-24 00:29:53,441 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,441 [INFO] 
+2025-04-24 01:13:21,743 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,743 [INFO] 
 === Day 35 ===
-2025-04-24 00:29:53,441 [INFO] Market prices : 5.684199243474584
-2025-04-24 00:29:53,441 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1160.0 
-- Daily GDP: 682.1
-- Daily production: 120.0
-- Average workers' Wealth: 188.4
-- Factory wealth: 14656.8
-- Market daily sales: 112.0
+2025-04-24 01:13:21,743 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 648.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 80.3
+- Factory wealth: 46790.0
+- Market daily sales: 208.0
+- Average happiness: 137.3
 
-2025-04-24 00:29:53,441 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,441 [INFO] 
+2025-04-24 01:13:21,743 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,743 [INFO] 
 === Day 36 ===
-2025-04-24 00:29:53,441 [INFO] Market prices : 5.427525194591043
-2025-04-24 00:29:53,441 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1156.0 
-- Daily GDP: 651.3
-- Daily production: 120.0
-- Average workers' Wealth: 186.7
-- Factory wealth: 14759.6
-- Market daily sales: 124.0
+2025-04-24 01:13:21,744 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 660.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 81.7
+- Factory wealth: 48200.0
+- Market daily sales: 188.0
+- Average happiness: 140.8
 
-2025-04-24 00:29:53,442 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,442 [INFO] 
+2025-04-24 01:13:21,744 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,744 [INFO] 
 === Day 37 ===
-2025-04-24 00:29:53,442 [INFO] Market prices : 5.185410375041025
-2025-04-24 00:29:53,442 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1150.0 
-- Daily GDP: 622.2
-- Daily production: 120.0
-- Average workers' Wealth: 185.0
-- Factory wealth: 14855.4
-- Market daily sales: 126.0
+2025-04-24 01:13:21,744 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 652.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 79.1
+- Factory wealth: 50010.0
+- Market daily sales: 208.0
+- Average happiness: 144.8
 
-2025-04-24 00:29:53,442 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,442 [INFO] 
+2025-04-24 01:13:21,744 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,744 [INFO] 
 === Day 38 ===
-2025-04-24 00:29:53,442 [INFO] Market prices : 4.954745885503298
-2025-04-24 00:29:53,442 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1142.0 
-- Daily GDP: 594.6
-- Daily production: 120.0
-- Average workers' Wealth: 183.3
-- Factory wealth: 14944.1
-- Market daily sales: 128.0
+2025-04-24 01:13:21,745 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 644.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 76.5
+- Factory wealth: 51820.0
+- Market daily sales: 208.0
+- Average happiness: 148.8
 
-2025-04-24 00:29:53,442 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,442 [INFO] 
+2025-04-24 01:13:21,745 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,745 [INFO] 
 === Day 39 ===
-2025-04-24 00:29:53,443 [INFO] Market prices : 4.734922652554912
-2025-04-24 00:29:53,443 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1136.0 
-- Daily GDP: 568.2
-- Daily production: 120.0
-- Average workers' Wealth: 181.6
-- Factory wealth: 15005.9
-- Market daily sales: 126.0
+2025-04-24 01:13:21,745 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 644.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 75.5
+- Factory wealth: 53470.0
+- Market daily sales: 200.0
+- Average happiness: 152.8
 
-2025-04-24 00:29:53,443 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,443 [INFO] 
+2025-04-24 01:13:21,745 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,745 [INFO] 
 === Day 40 ===
-2025-04-24 00:29:53,443 [INFO] Market prices : 4.524389184875406
-2025-04-24 00:29:53,443 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1138.0 
-- Daily GDP: 542.9
-- Daily production: 120.0
-- Average workers' Wealth: 180.4
-- Factory wealth: 15013.9
-- Market daily sales: 118.0
+2025-04-24 01:13:21,746 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 648.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 75.3
+- Factory wealth: 55040.0
+- Market daily sales: 196.0
+- Average happiness: 156.6
 
-2025-04-24 00:29:53,443 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,443 [INFO] 
+2025-04-24 01:13:21,746 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,746 [INFO] 
 === Day 41 ===
-2025-04-24 00:29:53,443 [INFO] Market prices : 4.3213818092757785
-2025-04-24 00:29:53,443 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1150.0 
-- Daily GDP: 518.6
-- Daily production: 120.0
-- Average workers' Wealth: 179.6
-- Factory wealth: 14963.2
-- Market daily sales: 108.0
+2025-04-24 01:13:21,746 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 642.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 73.1
+- Factory wealth: 56810.0
+- Market daily sales: 206.0
+- Average happiness: 160.6
 
-2025-04-24 00:29:53,443 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,444 [INFO] 
+2025-04-24 01:13:21,746 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,746 [INFO] 
 === Day 42 ===
-2025-04-24 00:29:53,444 [INFO] Market prices : 4.125534089496642
-2025-04-24 00:29:53,444 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1154.0 
-- Daily GDP: 495.1
-- Daily production: 120.0
-- Average workers' Wealth: 178.5
-- Factory wealth: 14936.2
-- Market daily sales: 116.0
+2025-04-24 01:13:21,747 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 652.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 74.1
+- Factory wealth: 58260.0
+- Market daily sales: 190.0
+- Average happiness: 164.6
 
-2025-04-24 00:29:53,444 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,444 [INFO] 
+2025-04-24 01:13:21,747 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,747 [INFO] 
 === Day 43 ===
-2025-04-24 00:29:53,444 [INFO] Market prices : 3.9400644265166624
-2025-04-24 00:29:53,444 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1150.0 
-- Daily GDP: 472.8
-- Daily production: 120.0
-- Average workers' Wealth: 177.0
-- Factory wealth: 14930.0
-- Market daily sales: 124.0
+2025-04-24 01:13:21,747 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 656.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 73.9
+- Factory wealth: 59830.0
+- Market daily sales: 196.0
+- Average happiness: 168.3
 
-2025-04-24 00:29:53,444 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,444 [INFO] 
+2025-04-24 01:13:21,747 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,747 [INFO] 
 === Day 44 ===
-2025-04-24 00:29:53,445 [INFO] Market prices : 3.764340298783515
-2025-04-24 00:29:53,445 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1148.0 
-- Daily GDP: 451.7
-- Daily production: 120.0
-- Average workers' Wealth: 175.7
-- Factory wealth: 14902.9
-- Market daily sales: 122.0
+2025-04-24 01:13:21,748 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 650.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 71.7
+- Factory wealth: 61600.0
+- Market daily sales: 206.0
+- Average happiness: 172.3
 
-2025-04-24 00:29:53,445 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,445 [INFO] 
+2025-04-24 01:13:21,748 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,748 [INFO] 
 === Day 45 ===
-2025-04-24 00:29:53,445 [INFO] Market prices : 3.5961953780948455
-2025-04-24 00:29:53,445 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1144.0 
-- Daily GDP: 431.5
-- Daily production: 120.0
-- Average workers' Wealth: 174.3
-- Factory wealth: 14871.4
-- Market daily sales: 124.0
+2025-04-24 01:13:21,748 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 650.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 70.7
+- Factory wealth: 63250.0
+- Market daily sales: 200.0
+- Average happiness: 176.3
 
-2025-04-24 00:29:53,445 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,445 [INFO] 
+2025-04-24 01:13:21,748 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,748 [INFO] 
 === Day 46 ===
-2025-04-24 00:29:53,445 [INFO] Market prices : 3.435841465511384
-2025-04-24 00:29:53,445 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1146.0 
-- Daily GDP: 412.3
-- Daily production: 120.0
-- Average workers' Wealth: 173.1
-- Factory wealth: 14806.5
-- Market daily sales: 118.0
+2025-04-24 01:13:21,749 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 678.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 75.3
+- Factory wealth: 64340.0
+- Market daily sales: 172.0
+- Average happiness: 179.7
 
-2025-04-24 00:29:53,445 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,445 [INFO] 
+2025-04-24 01:13:21,749 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,749 [INFO] 
 === Day 47 ===
-2025-04-24 00:29:53,446 [INFO] Market prices : 3.28173827936192
-2025-04-24 00:29:53,446 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1146.0 
-- Daily GDP: 393.8
-- Daily production: 120.0
-- Average workers' Wealth: 171.9
-- Factory wealth: 14738.3
-- Market daily sales: 120.0
+2025-04-24 01:13:21,749 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 704.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 79.5
+- Factory wealth: 65470.0
+- Market daily sales: 174.0
+- Average happiness: 183.6
 
-2025-04-24 00:29:53,446 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,446 [INFO] 
+2025-04-24 01:13:21,749 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,749 [INFO] 
 === Day 48 ===
-2025-04-24 00:29:53,446 [INFO] Market prices : 3.1349236721273077
-2025-04-24 00:29:53,446 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1140.0 
-- Daily GDP: 376.2
-- Daily production: 120.0
-- Average workers' Wealth: 170.4
-- Factory wealth: 14679.6
-- Market daily sales: 126.0
+2025-04-24 01:13:21,750 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 724.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 82.5
+- Factory wealth: 66720.0
+- Market daily sales: 180.0
+- Average happiness: 187.1
 
-2025-04-24 00:29:53,446 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,446 [INFO] 
+2025-04-24 01:13:21,750 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,750 [INFO] 
 === Day 49 ===
-2025-04-24 00:29:53,447 [INFO] Market prices : 2.995411362111171
-2025-04-24 00:29:53,447 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1146.0 
-- Daily GDP: 359.4
-- Daily production: 120.0
-- Average workers' Wealth: 169.4
-- Factory wealth: 14572.7
-- Market daily sales: 114.0
+2025-04-24 01:13:21,750 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 730.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 82.7
+- Factory wealth: 68250.0
+- Market daily sales: 194.0
+- Average happiness: 191.1
 
-2025-04-24 00:29:53,447 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,447 [INFO] 
+2025-04-24 01:13:21,750 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,750 [INFO] 
 === Day 50 ===
-2025-04-24 00:29:53,447 [INFO] Market prices : 2.8605916212946085
-2025-04-24 00:29:53,447 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1142.0 
-- Daily GDP: 343.3
-- Daily production: 120.0
-- Average workers' Wealth: 168.1
-- Factory wealth: 14487.4
-- Market daily sales: 124.0
+2025-04-24 01:13:21,751 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 760.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 87.7
+- Factory wealth: 69300.0
+- Market daily sales: 170.0
+- Average happiness: 195.0
 
-2025-04-24 00:29:53,447 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,447 [INFO] 
+2025-04-24 01:13:21,751 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,751 [INFO] 
 === Day 51 ===
-2025-04-24 00:29:53,447 [INFO] Market prices : 2.7329309033598834
-2025-04-24 00:29:53,447 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1154.0 
-- Daily GDP: 328.0
-- Daily production: 120.0
-- Average workers' Wealth: 167.2
-- Factory wealth: 14346.8
-- Market daily sales: 108.0
+2025-04-24 01:13:21,751 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 766.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 87.9
+- Factory wealth: 70830.0
+- Market daily sales: 194.0
+- Average happiness: 198.9
 
-2025-04-24 00:29:53,447 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,447 [INFO] 
+2025-04-24 01:13:21,751 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,751 [INFO] 
 === Day 52 ===
-2025-04-24 00:29:53,448 [INFO] Market prices : 2.6090066227420126
-2025-04-24 00:29:53,448 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1160.0 
-- Daily GDP: 313.1
-- Daily production: 120.0
-- Average workers' Wealth: 166.2
-- Factory wealth: 14215.8
-- Market daily sales: 114.0
+2025-04-24 01:13:21,752 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 782.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 90.1
+- Factory wealth: 72160.0
+- Market daily sales: 184.0
+- Average happiness: 202.8
 
-2025-04-24 00:29:53,448 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,448 [INFO] 
+2025-04-24 01:13:21,752 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,752 [INFO] 
 === Day 53 ===
-2025-04-24 00:29:53,448 [INFO] Market prices : 2.4913985521831754
-2025-04-24 00:29:53,448 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1158.0 
-- Daily GDP: 299.0
-- Daily production: 120.0
-- Average workers' Wealth: 165.0
-- Factory wealth: 14098.2
-- Market daily sales: 122.0
+2025-04-24 01:13:21,752 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 768.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 86.3
+- Factory wealth: 74090.0
+- Market daily sales: 214.0
+- Average happiness: 206.8
 
-2025-04-24 00:29:53,448 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,448 [INFO] 
+2025-04-24 01:13:21,752 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,753 [INFO] 
 === Day 54 ===
-2025-04-24 00:29:53,448 [INFO] Market prices : 2.37990739494262
-2025-04-24 00:29:53,449 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1162.0 
-- Daily GDP: 285.6
-- Daily production: 120.0
-- Average workers' Wealth: 163.9
-- Factory wealth: 13957.7
-- Market daily sales: 116.0
+2025-04-24 01:13:21,753 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 776.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 86.9
+- Factory wealth: 75580.0
+- Market daily sales: 192.0
+- Average happiness: 210.8
 
-2025-04-24 00:29:53,449 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,449 [INFO] 
+2025-04-24 01:13:21,753 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,753 [INFO] 
 === Day 55 ===
-2025-04-24 00:29:53,449 [INFO] Market prices : 2.272709856725974
-2025-04-24 00:29:53,449 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1170.0 
-- Daily GDP: 272.7
-- Daily production: 120.0
-- Average workers' Wealth: 162.9
-- Factory wealth: 13800.7
-- Market daily sales: 112.0
+2025-04-24 01:13:21,753 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 764.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 83.5
+- Factory wealth: 77470.0
+- Market daily sales: 212.0
+- Average happiness: 214.8
 
-2025-04-24 00:29:53,449 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,449 [INFO] 
+2025-04-24 01:13:21,753 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,754 [INFO] 
 === Day 56 ===
-2025-04-24 00:29:53,449 [INFO] Market prices : 2.170008363200384
-2025-04-24 00:29:53,449 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1164.0 
-- Daily GDP: 260.4
-- Daily production: 120.0
-- Average workers' Wealth: 161.6
-- Factory wealth: 13669.4
-- Market daily sales: 126.0
+2025-04-24 01:13:21,754 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 750.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 79.7
+- Factory wealth: 79400.0
+- Market daily sales: 214.0
+- Average happiness: 218.6
 
-2025-04-24 00:29:53,449 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,449 [INFO] 
+2025-04-24 01:13:21,754 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,754 [INFO] 
 === Day 57 ===
-2025-04-24 00:29:53,450 [INFO] Market prices : 2.0732326900559417
-2025-04-24 00:29:53,450 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1166.0 
-- Daily GDP: 248.8
-- Daily production: 120.0
-- Average workers' Wealth: 160.5
-- Factory wealth: 13513.2
-- Market daily sales: 118.0
+2025-04-24 01:13:21,754 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 766.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 81.9
+- Factory wealth: 80730.0
+- Market daily sales: 184.0
+- Average happiness: 222.5
 
-2025-04-24 00:29:53,450 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,450 [INFO] 
+2025-04-24 01:13:21,754 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,755 [INFO] 
 === Day 58 ===
-2025-04-24 00:29:53,450 [INFO] Market prices : 1.980170772079427
-2025-04-24 00:29:53,450 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1154.0 
-- Daily GDP: 237.6
-- Daily production: 120.0
-- Average workers' Wealth: 159.1
-- Factory wealth: 13380.0
-- Market daily sales: 132.0
+2025-04-24 01:13:21,755 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 800.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 87.7
+- Factory wealth: 81700.0
+- Market daily sales: 166.0
+- Average happiness: 226.4
 
-2025-04-24 00:29:53,450 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,450 [INFO] 
+2025-04-24 01:13:21,755 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,755 [INFO] 
 === Day 59 ===
-2025-04-24 00:29:53,450 [INFO] Market prices : 1.89242872235108
-2025-04-24 00:29:53,451 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1160.0 
-- Daily GDP: 227.1
-- Daily production: 120.0
-- Average workers' Wealth: 158.1
-- Factory wealth: 13203.8
-- Market daily sales: 114.0
+2025-04-24 01:13:21,755 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 816.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 89.9
+- Factory wealth: 83030.0
+- Market daily sales: 184.0
+- Average happiness: 230.4
 
-2025-04-24 00:29:53,451 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,451 [INFO] 
+2025-04-24 01:13:21,755 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,756 [INFO] 
 === Day 60 ===
-2025-04-24 00:29:53,451 [INFO] Factory 0 adjusted production ratio: 1.1  
-2025-04-24 00:29:53,451 [INFO] Market prices : 1.807154637808397
-2025-04-24 00:29:53,451 [INFO] Economy Summary:
-- Unemployment: 40.0%
-- Inventory: 1154.0 
-- Daily GDP: 216.9
-- Daily production: 120.0
-- Average workers' Wealth: 156.9
-- Factory wealth: 13045.0
-- Market daily sales: 126.0
+2025-04-24 01:13:21,756 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 808.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 87.3
+- Factory wealth: 84840.0
+- Market daily sales: 208.0
+- Average happiness: 234.4
 
-2025-04-24 00:29:53,451 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,451 [INFO] 
+2025-04-24 01:13:21,756 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,756 [INFO] 
 === Day 61 ===
-2025-04-24 00:29:53,451 [INFO] Market prices : 1.72673152565462
-2025-04-24 00:29:53,451 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1146.0 
-- Daily GDP: 193.4
-- Daily production: 112.0
-- Average workers' Wealth: 155.6
-- Factory wealth: 12875.8
-- Market daily sales: 120.0
+2025-04-24 01:13:21,756 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 820.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 88.7
+- Factory wealth: 86250.0
+- Market daily sales: 188.0
+- Average happiness: 238.3
 
-2025-04-24 00:29:53,451 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,451 [INFO] 
+2025-04-24 01:13:21,757 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,757 [INFO] 
 === Day 62 ===
-2025-04-24 00:29:53,452 [INFO] Market prices : 1.6494670939900395
-2025-04-24 00:29:53,452 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1142.0 
-- Daily GDP: 184.7
-- Daily production: 112.0
-- Average workers' Wealth: 154.4
-- Factory wealth: 12694.1
-- Market daily sales: 116.0
+2025-04-24 01:13:21,757 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 822.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 88.1
+- Factory wealth: 87860.0
+- Market daily sales: 198.0
+- Average happiness: 242.0
 
-2025-04-24 00:29:53,452 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,452 [INFO] 
+2025-04-24 01:13:21,757 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,757 [INFO] 
 === Day 63 ===
-2025-04-24 00:29:53,452 [INFO] Market prices : 1.5754450724576243
-2025-04-24 00:29:53,452 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1132.0 
-- Daily GDP: 176.4
-- Daily production: 112.0
-- Average workers' Wealth: 153.2
-- Factory wealth: 12517.2
-- Market daily sales: 122.0
+2025-04-24 01:13:21,758 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 844.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 91.5
+- Factory wealth: 89070.0
+- Market daily sales: 178.0
+- Average happiness: 245.8
 
-2025-04-24 00:29:53,452 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,452 [INFO] 
+2025-04-24 01:13:21,758 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,758 [INFO] 
 === Day 64 ===
-2025-04-24 00:29:53,452 [INFO] Market prices : 1.5052533678900926
-2025-04-24 00:29:53,452 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1120.0 
-- Daily GDP: 168.6
-- Daily production: 112.0
-- Average workers' Wealth: 151.9
-- Factory wealth: 12338.1
-- Market daily sales: 124.0
+2025-04-24 01:13:21,758 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 856.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 92.9
+- Factory wealth: 90480.0
+- Market daily sales: 188.0
+- Average happiness: 249.6
 
-2025-04-24 00:29:53,453 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,453 [INFO] 
+2025-04-24 01:13:21,758 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,758 [INFO] 
 === Day 65 ===
-2025-04-24 00:29:53,453 [INFO] Market prices : 1.438413597402554
-2025-04-24 00:29:53,453 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1108.0 
-- Daily GDP: 161.1
-- Daily production: 112.0
-- Average workers' Wealth: 150.6
-- Factory wealth: 12153.9
-- Market daily sales: 124.0
+2025-04-24 01:13:21,759 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 868.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 94.3
+- Factory wealth: 91890.0
+- Market daily sales: 188.0
+- Average happiness: 253.2
 
-2025-04-24 00:29:53,453 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,453 [INFO] 
+2025-04-24 01:13:21,759 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,759 [INFO] 
 === Day 66 ===
-2025-04-24 00:29:53,453 [INFO] Market prices : 1.374600339626877
-2025-04-24 00:29:53,453 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1100.0 
-- Daily GDP: 154.0
-- Daily production: 112.0
-- Average workers' Wealth: 149.4
-- Factory wealth: 11959.0
-- Market daily sales: 120.0
+2025-04-24 01:13:21,759 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 884.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 96.5
+- Factory wealth: 93220.0
+- Market daily sales: 184.0
+- Average happiness: 257.0
 
-2025-04-24 00:29:53,453 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,453 [INFO] 
+2025-04-24 01:13:21,759 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,759 [INFO] 
 === Day 67 ===
-2025-04-24 00:29:53,454 [INFO] Market prices : 1.3134369300196262
-2025-04-24 00:29:53,454 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1090.0 
-- Daily GDP: 147.1
-- Daily production: 112.0
-- Average workers' Wealth: 148.1
-- Factory wealth: 11762.4
-- Market daily sales: 122.0
+2025-04-24 01:13:21,760 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 878.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 94.3
+- Factory wealth: 94990.0
+- Market daily sales: 206.0
+- Average happiness: 261.0
 
-2025-04-24 00:29:53,454 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,454 [INFO] 
+2025-04-24 01:13:21,760 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,760 [INFO] 
 === Day 68 ===
-2025-04-24 00:29:53,454 [INFO] Market prices : 1.2551290221887916
-2025-04-24 00:29:53,454 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1088.0 
-- Daily GDP: 140.6
-- Daily production: 112.0
-- Average workers' Wealth: 147.0
-- Factory wealth: 11551.0
-- Market daily sales: 114.0
-
-2025-04-24 00:29:53,454 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,454 [INFO] 
-=== Day 69 ===
-2025-04-24 00:29:53,454 [INFO] Market prices : 1.198996863140904
-2025-04-24 00:29:53,454 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1080.0 
-- Daily GDP: 134.3
-- Daily production: 112.0
-- Average workers' Wealth: 145.9
-- Factory wealth: 11343.3
-- Market daily sales: 120.0
-
-2025-04-24 00:29:53,454 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,454 [INFO] 
-=== Day 70 ===
-2025-04-24 00:29:53,455 [INFO] Market prices : 1.1457328760980274
-2025-04-24 00:29:53,455 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1076.0 
-- Daily GDP: 128.3
-- Daily production: 112.0
-- Average workers' Wealth: 144.7
-- Factory wealth: 11127.0
-- Market daily sales: 116.0
-
-2025-04-24 00:29:53,455 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,455 [INFO] 
-=== Day 71 ===
-2025-04-24 00:29:53,455 [INFO] Market prices : 1.094668377125868
-2025-04-24 00:29:53,455 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1068.0 
-- Daily GDP: 122.6
-- Daily production: 112.0
-- Average workers' Wealth: 143.6
-- Factory wealth: 10911.7
-- Market daily sales: 120.0
-
-2025-04-24 00:29:53,455 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,455 [INFO] 
-=== Day 72 ===
-2025-04-24 00:29:53,455 [INFO] Market prices : 1.0461311943665135
-2025-04-24 00:29:53,456 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1060.0 
-- Daily GDP: 117.2
-- Daily production: 112.0
-- Average workers' Wealth: 142.4
-- Factory wealth: 10692.9
-- Market daily sales: 120.0
-
-2025-04-24 00:29:53,456 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,456 [INFO] 
-=== Day 73 ===
-2025-04-24 00:29:53,456 [INFO] Market prices : 1
-2025-04-24 00:29:53,456 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1050.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 141.2
-- Factory wealth: 10472.8
-- Market daily sales: 122.0
-
-2025-04-24 00:29:53,456 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,456 [INFO] 
-=== Day 74 ===
-2025-04-24 00:29:53,456 [INFO] Market prices : 1
-2025-04-24 00:29:53,456 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1040.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 140.1
-- Factory wealth: 10249.4
-- Market daily sales: 122.0
-
-2025-04-24 00:29:53,456 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,456 [INFO] 
-=== Day 75 ===
-2025-04-24 00:29:53,457 [INFO] Market prices : 1
-2025-04-24 00:29:53,457 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1020.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 138.8
-- Factory wealth: 10036.0
-- Market daily sales: 132.0
-
-2025-04-24 00:29:53,457 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,457 [INFO] 
-=== Day 76 ===
-2025-04-24 00:29:53,457 [INFO] Market prices : 1
-2025-04-24 00:29:53,457 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1018.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 137.6
-- Factory wealth: 9804.6
-- Market daily sales: 114.0
-
-2025-04-24 00:29:53,457 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,457 [INFO] 
-=== Day 77 ===
-2025-04-24 00:29:53,457 [INFO] Market prices : 1
-2025-04-24 00:29:53,457 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 1002.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 136.3
-- Factory wealth: 9587.2
-- Market daily sales: 128.0
-
-2025-04-24 00:29:53,458 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,458 [INFO] 
-=== Day 78 ===
-2025-04-24 00:29:53,458 [INFO] Market prices : 1
-2025-04-24 00:29:53,458 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 988.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 135.1
-- Factory wealth: 9367.8
-- Market daily sales: 126.0
-
-2025-04-24 00:29:53,458 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,458 [INFO] 
-=== Day 79 ===
-2025-04-24 00:29:53,458 [INFO] Market prices : 1
-2025-04-24 00:29:53,458 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 976.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 133.9
-- Factory wealth: 9146.4
-- Market daily sales: 124.0
-
-2025-04-24 00:29:53,458 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,458 [INFO] 
-=== Day 80 ===
-2025-04-24 00:29:53,459 [INFO] Market prices : 1
-2025-04-24 00:29:53,459 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 962.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 132.6
-- Factory wealth: 8927.0
-- Market daily sales: 126.0
-
-2025-04-24 00:29:53,459 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,459 [INFO] 
-=== Day 81 ===
-2025-04-24 00:29:53,459 [INFO] Market prices : 1
-2025-04-24 00:29:53,459 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 964.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 131.5
-- Factory wealth: 8691.6
-- Market daily sales: 110.0
-
-2025-04-24 00:29:53,459 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,459 [INFO] 
-=== Day 82 ===
-2025-04-24 00:29:53,459 [INFO] Market prices : 1
-2025-04-24 00:29:53,459 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 964.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 130.4
-- Factory wealth: 8458.2
-- Market daily sales: 112.0
-
-2025-04-24 00:29:53,459 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,459 [INFO] 
-=== Day 83 ===
-2025-04-24 00:29:53,460 [INFO] Market prices : 1
-2025-04-24 00:29:53,460 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 954.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 129.2
-- Factory wealth: 8234.8
-- Market daily sales: 122.0
-
-2025-04-24 00:29:53,460 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,460 [INFO] 
-=== Day 84 ===
-2025-04-24 00:29:53,460 [INFO] Market prices : 1
-2025-04-24 00:29:53,460 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 952.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 128.1
-- Factory wealth: 8003.4
-- Market daily sales: 114.0
-
-2025-04-24 00:29:53,460 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,460 [INFO] 
-=== Day 85 ===
-2025-04-24 00:29:53,460 [INFO] Market prices : 1
-2025-04-24 00:29:53,461 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 954.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 127.0
-- Factory wealth: 7768.0
-- Market daily sales: 110.0
-
-2025-04-24 00:29:53,461 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,461 [INFO] 
-=== Day 86 ===
-2025-04-24 00:29:53,461 [INFO] Market prices : 1
-2025-04-24 00:29:53,461 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 944.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 125.8
-- Factory wealth: 7544.6
-- Market daily sales: 122.0
-
-2025-04-24 00:29:53,461 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,461 [INFO] 
-=== Day 87 ===
-2025-04-24 00:29:53,461 [INFO] Market prices : 1
-2025-04-24 00:29:53,461 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 950.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 124.7
-- Factory wealth: 7305.2
-- Market daily sales: 106.0
-
-2025-04-24 00:29:53,461 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,461 [INFO] 
-=== Day 88 ===
-2025-04-24 00:29:53,462 [INFO] Market prices : 1
-2025-04-24 00:29:53,462 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 946.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 123.6
-- Factory wealth: 7075.8
-- Market daily sales: 116.0
-
-2025-04-24 00:29:53,462 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,462 [INFO] 
-=== Day 89 ===
-2025-04-24 00:29:53,462 [INFO] Market prices : 1
-2025-04-24 00:29:53,462 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 934.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 122.3
-- Factory wealth: 6854.4
-- Market daily sales: 124.0
-
-2025-04-24 00:29:53,462 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,462 [INFO] 
-=== Day 90 ===
-2025-04-24 00:29:53,462 [INFO] Factory 0 adjusted production ratio: 1.1  
-2025-04-24 00:29:53,462 [INFO] Market prices : 1
-2025-04-24 00:29:53,462 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 928.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 121.2
-- Factory wealth: 6627.0
-- Market daily sales: 118.0
-
-2025-04-24 00:29:53,463 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,463 [INFO] 
-=== Day 91 ===
-2025-04-24 00:29:53,463 [INFO] Market prices : 1
-2025-04-24 00:29:53,463 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 922.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 120.0
-- Factory wealth: 6399.6
-- Market daily sales: 118.0
-
-2025-04-24 00:29:53,463 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,463 [INFO] 
-=== Day 92 ===
-2025-04-24 00:29:53,463 [INFO] Market prices : 1
-2025-04-24 00:29:53,463 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 918.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 118.8
-- Factory wealth: 6170.2
-- Market daily sales: 116.0
-
-2025-04-24 00:29:53,463 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,463 [INFO] 
-=== Day 93 ===
-2025-04-24 00:29:53,464 [INFO] Market prices : 1
-2025-04-24 00:29:53,464 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 914.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 117.7
-- Factory wealth: 5940.8
-- Market daily sales: 116.0
-
-2025-04-24 00:29:53,464 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,464 [INFO] 
-=== Day 94 ===
-2025-04-24 00:29:53,464 [INFO] Market prices : 1
-2025-04-24 00:29:53,464 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 904.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 116.5
-- Factory wealth: 5717.4
-- Market daily sales: 122.0
-
-2025-04-24 00:29:53,464 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,464 [INFO] 
-=== Day 95 ===
-2025-04-24 00:29:53,464 [INFO] Market prices : 1
-2025-04-24 00:29:53,464 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 892.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 115.2
-- Factory wealth: 5496.0
-- Market daily sales: 124.0
-
-2025-04-24 00:29:53,464 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,464 [INFO] 
-=== Day 96 ===
-2025-04-24 00:29:53,465 [INFO] Market prices : 1
-2025-04-24 00:29:53,465 [INFO] Economy Summary:
-- Unemployment: 44.0%
+2025-04-24 01:13:21,760 [INFO] Economy Summary:
+- Unemployment: 0.0%
 - Inventory: 890.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 114.1
-- Factory wealth: 5264.6
-- Market daily sales: 114.0
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 95.7
+- Factory wealth: 96400.0
+- Market daily sales: 188.0
+- Average happiness: 264.8
 
-2025-04-24 00:29:53,465 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,465 [INFO] 
+2025-04-24 01:13:21,760 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,760 [INFO] 
+=== Day 69 ===
+2025-04-24 01:13:21,761 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 904.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 97.5
+- Factory wealth: 97770.0
+- Market daily sales: 186.0
+- Average happiness: 268.7
+
+2025-04-24 01:13:21,761 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,761 [INFO] 
+=== Day 70 ===
+2025-04-24 01:13:21,761 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 914.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 98.5
+- Factory wealth: 99220.0
+- Market daily sales: 190.0
+- Average happiness: 272.6
+
+2025-04-24 01:13:21,761 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,761 [INFO] 
+=== Day 71 ===
+2025-04-24 01:13:21,762 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 904.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 95.5
+- Factory wealth: 101070.0
+- Market daily sales: 210.0
+- Average happiness: 276.6
+
+2025-04-24 01:13:21,762 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,762 [INFO] 
+=== Day 72 ===
+2025-04-24 01:13:21,762 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 898.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 93.3
+- Factory wealth: 102840.0
+- Market daily sales: 206.0
+- Average happiness: 280.5
+
+2025-04-24 01:13:21,762 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,762 [INFO] 
+=== Day 73 ===
+2025-04-24 01:13:21,763 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 904.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 93.5
+- Factory wealth: 104370.0
+- Market daily sales: 194.0
+- Average happiness: 284.2
+
+2025-04-24 01:13:21,763 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,763 [INFO] 
+=== Day 74 ===
+2025-04-24 01:13:21,763 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 906.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 92.9
+- Factory wealth: 105980.0
+- Market daily sales: 198.0
+- Average happiness: 288.1
+
+2025-04-24 01:13:21,763 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,763 [INFO] 
+=== Day 75 ===
+2025-04-24 01:13:21,764 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 932.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 97.1
+- Factory wealth: 107110.0
+- Market daily sales: 174.0
+- Average happiness: 291.9
+
+2025-04-24 01:13:21,764 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,764 [INFO] 
+=== Day 76 ===
+2025-04-24 01:13:21,764 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 926.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 94.9
+- Factory wealth: 108880.0
+- Market daily sales: 206.0
+- Average happiness: 295.9
+
+2025-04-24 01:13:21,764 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,764 [INFO] 
+=== Day 77 ===
+2025-04-24 01:13:21,765 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 920.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 92.7
+- Factory wealth: 110650.0
+- Market daily sales: 206.0
+- Average happiness: 299.8
+
+2025-04-24 01:13:21,765 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,765 [INFO] 
+=== Day 78 ===
+2025-04-24 01:13:21,765 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 930.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 93.7
+- Factory wealth: 112100.0
+- Market daily sales: 190.0
+- Average happiness: 303.5
+
+2025-04-24 01:13:21,765 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,765 [INFO] 
+=== Day 79 ===
+2025-04-24 01:13:21,766 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 918.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 90.3
+- Factory wealth: 113990.0
+- Market daily sales: 212.0
+- Average happiness: 307.5
+
+2025-04-24 01:13:21,766 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,766 [INFO] 
+=== Day 80 ===
+2025-04-24 01:13:21,766 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 926.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 90.9
+- Factory wealth: 115480.0
+- Market daily sales: 192.0
+- Average happiness: 311.4
+
+2025-04-24 01:13:21,766 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,766 [INFO] 
+=== Day 81 ===
+2025-04-24 01:13:21,767 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 946.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 93.9
+- Factory wealth: 116730.0
+- Market daily sales: 180.0
+- Average happiness: 315.4
+
+2025-04-24 01:13:21,767 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,767 [INFO] 
+=== Day 82 ===
+2025-04-24 01:13:21,767 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 972.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 98.1
+- Factory wealth: 117860.0
+- Market daily sales: 174.0
+- Average happiness: 319.3
+
+2025-04-24 01:13:21,767 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,767 [INFO] 
+=== Day 83 ===
+2025-04-24 01:13:21,768 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 996.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 101.9
+- Factory wealth: 119030.0
+- Market daily sales: 176.0
+- Average happiness: 322.9
+
+2025-04-24 01:13:21,768 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,768 [INFO] 
+=== Day 84 ===
+2025-04-24 01:13:21,768 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1012.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 104.1
+- Factory wealth: 120360.0
+- Market daily sales: 184.0
+- Average happiness: 326.9
+
+2025-04-24 01:13:21,768 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,768 [INFO] 
+=== Day 85 ===
+2025-04-24 01:13:21,769 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1006.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 101.9
+- Factory wealth: 122130.0
+- Market daily sales: 206.0
+- Average happiness: 330.8
+
+2025-04-24 01:13:21,769 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,769 [INFO] 
+=== Day 86 ===
+2025-04-24 01:13:21,769 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1010.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 101.7
+- Factory wealth: 123700.0
+- Market daily sales: 196.0
+- Average happiness: 334.7
+
+2025-04-24 01:13:21,769 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,769 [INFO] 
+=== Day 87 ===
+2025-04-24 01:13:21,770 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1032.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 105.1
+- Factory wealth: 124910.0
+- Market daily sales: 178.0
+- Average happiness: 338.2
+
+2025-04-24 01:13:21,770 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,770 [INFO] 
+=== Day 88 ===
+2025-04-24 01:13:21,771 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1042.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 106.1
+- Factory wealth: 126360.0
+- Market daily sales: 190.0
+- Average happiness: 342.1
+
+2025-04-24 01:13:21,771 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,771 [INFO] 
+=== Day 89 ===
+2025-04-24 01:13:21,771 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1026.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 101.9
+- Factory wealth: 128330.0
+- Market daily sales: 216.0
+- Average happiness: 346.1
+
+2025-04-24 01:13:21,771 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,771 [INFO] 
+=== Day 90 ===
+2025-04-24 01:13:21,771 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1030.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 101.7
+- Factory wealth: 129900.0
+- Market daily sales: 196.0
+- Average happiness: 350.1
+
+2025-04-24 01:13:21,772 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,772 [INFO] 
+=== Day 91 ===
+2025-04-24 01:13:21,772 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1042.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 103.1
+- Factory wealth: 131310.0
+- Market daily sales: 188.0
+- Average happiness: 353.8
+
+2025-04-24 01:13:21,772 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,772 [INFO] 
+=== Day 92 ===
+2025-04-24 01:13:21,773 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1064.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 106.5
+- Factory wealth: 132520.0
+- Market daily sales: 178.0
+- Average happiness: 357.8
+
+2025-04-24 01:13:21,773 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,773 [INFO] 
+=== Day 93 ===
+2025-04-24 01:13:21,773 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1058.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 104.3
+- Factory wealth: 134290.0
+- Market daily sales: 206.0
+- Average happiness: 361.8
+
+2025-04-24 01:13:21,773 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,773 [INFO] 
+=== Day 94 ===
+2025-04-24 01:13:21,774 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1066.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 104.9
+- Factory wealth: 135780.0
+- Market daily sales: 192.0
+- Average happiness: 365.8
+
+2025-04-24 01:13:21,774 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,774 [INFO] 
+=== Day 95 ===
+2025-04-24 01:13:21,774 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1076.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 105.9
+- Factory wealth: 137230.0
+- Market daily sales: 190.0
+- Average happiness: 369.7
+
+2025-04-24 01:13:21,774 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,774 [INFO] 
+=== Day 96 ===
+2025-04-24 01:13:21,775 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1100.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 109.7
+- Factory wealth: 138400.0
+- Market daily sales: 176.0
+- Average happiness: 373.7
+
+2025-04-24 01:13:21,775 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,775 [INFO] 
 === Day 97 ===
-2025-04-24 00:29:53,465 [INFO] Market prices : 1
-2025-04-24 00:29:53,465 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 902.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 113.1
-- Factory wealth: 5019.2
-- Market daily sales: 100.0
+2025-04-24 01:13:21,775 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1094.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 107.5
+- Factory wealth: 140170.0
+- Market daily sales: 206.0
+- Average happiness: 377.7
 
-2025-04-24 00:29:53,465 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,465 [INFO] 
+2025-04-24 01:13:21,775 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,775 [INFO] 
 === Day 98 ===
-2025-04-24 00:29:53,466 [INFO] Market prices : 1
-2025-04-24 00:29:53,466 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 896.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 111.9
-- Factory wealth: 4791.8
-- Market daily sales: 118.0
+2025-04-24 01:13:21,776 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1112.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 110.1
+- Factory wealth: 141460.0
+- Market daily sales: 182.0
+- Average happiness: 381.5
 
-2025-04-24 00:29:53,466 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,466 [INFO] 
+2025-04-24 01:13:21,776 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,776 [INFO] 
 === Day 99 ===
-2025-04-24 00:29:53,466 [INFO] Market prices : 1
-2025-04-24 00:29:53,466 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 902.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 110.9
-- Factory wealth: 4552.4
-- Market daily sales: 106.0
+2025-04-24 01:13:21,776 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1158.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 118.3
+- Factory wealth: 142190.0
+- Market daily sales: 154.0
+- Average happiness: 385.4
 
-2025-04-24 00:29:53,466 [INFO] Economic Phase: An economic crisis occurred!
-2025-04-24 00:29:53,466 [INFO] 
+2025-04-24 01:13:21,776 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,776 [INFO] 
 === Day 100 ===
-2025-04-24 00:29:53,466 [INFO] Market prices : 1
-2025-04-24 00:29:53,466 [INFO] Economy Summary:
-- Unemployment: 44.0%
-- Inventory: 908.0 
-- Daily GDP: 112.0
-- Daily production: 112.0
-- Average workers' Wealth: 109.8
-- Factory wealth: 4313.0
-- Market daily sales: 106.0
+2025-04-24 01:13:21,777 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1176.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 120.9
+- Factory wealth: 143480.0
+- Market daily sales: 182.0
+- Average happiness: 389.4
 
-2025-04-24 00:29:53,466 [INFO] Economic Phase: An economic crisis occurred!
+2025-04-24 01:13:21,777 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,777 [INFO] 
+=== Day 101 ===
+2025-04-24 01:13:21,777 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1158.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.3
+- Factory wealth: 145490.0
+- Market daily sales: 218.0
+- Average happiness: 393.4
+
+2025-04-24 01:13:21,777 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,777 [INFO] 
+=== Day 102 ===
+2025-04-24 01:13:21,778 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1160.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 115.7
+- Factory wealth: 147100.0
+- Market daily sales: 198.0
+- Average happiness: 397.2
+
+2025-04-24 01:13:21,778 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,778 [INFO] 
+=== Day 103 ===
+2025-04-24 01:13:21,778 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1170.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.7
+- Factory wealth: 148550.0
+- Market daily sales: 190.0
+- Average happiness: 401.2
+
+2025-04-24 01:13:21,778 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,778 [INFO] 
+=== Day 104 ===
+2025-04-24 01:13:21,779 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1190.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.7
+- Factory wealth: 149800.0
+- Market daily sales: 180.0
+- Average happiness: 405.0
+
+2025-04-24 01:13:21,779 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,779 [INFO] 
+=== Day 105 ===
+2025-04-24 01:13:21,779 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1200.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 120.7
+- Factory wealth: 151250.0
+- Market daily sales: 190.0
+- Average happiness: 409.0
+
+2025-04-24 01:13:21,779 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,779 [INFO] 
+=== Day 106 ===
+2025-04-24 01:13:21,780 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1210.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.7
+- Factory wealth: 152700.0
+- Market daily sales: 190.0
+- Average happiness: 413.0
+
+2025-04-24 01:13:21,780 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,780 [INFO] 
+=== Day 107 ===
+2025-04-24 01:13:21,780 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1240.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 126.7
+- Factory wealth: 153750.0
+- Market daily sales: 170.0
+- Average happiness: 417.0
+
+2025-04-24 01:13:21,780 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,780 [INFO] 
+=== Day 108 ===
+2025-04-24 01:13:21,781 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1252.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 128.1
+- Factory wealth: 155160.0
+- Market daily sales: 188.0
+- Average happiness: 420.6
+
+2025-04-24 01:13:21,781 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,781 [INFO] 
+=== Day 109 ===
+2025-04-24 01:13:21,781 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1236.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 123.9
+- Factory wealth: 157130.0
+- Market daily sales: 216.0
+- Average happiness: 424.6
+
+2025-04-24 01:13:21,781 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,781 [INFO] 
+=== Day 110 ===
+2025-04-24 01:13:21,782 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1244.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 124.5
+- Factory wealth: 158620.0
+- Market daily sales: 192.0
+- Average happiness: 428.5
+
+2025-04-24 01:13:21,782 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,782 [INFO] 
+=== Day 111 ===
+2025-04-24 01:13:21,782 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1256.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.9
+- Factory wealth: 160030.0
+- Market daily sales: 188.0
+- Average happiness: 432.2
+
+2025-04-24 01:13:21,782 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,783 [INFO] 
+=== Day 112 ===
+2025-04-24 01:13:21,783 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1248.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 123.3
+- Factory wealth: 161840.0
+- Market daily sales: 208.0
+- Average happiness: 436.2
+
+2025-04-24 01:13:21,783 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,783 [INFO] 
+=== Day 113 ===
+2025-04-24 01:13:21,784 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1254.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 123.5
+- Factory wealth: 163370.0
+- Market daily sales: 194.0
+- Average happiness: 440.0
+
+2025-04-24 01:13:21,784 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,784 [INFO] 
+=== Day 114 ===
+2025-04-24 01:13:21,784 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1248.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.3
+- Factory wealth: 165140.0
+- Market daily sales: 206.0
+- Average happiness: 443.9
+
+2025-04-24 01:13:21,784 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,784 [INFO] 
+=== Day 115 ===
+2025-04-24 01:13:21,785 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1256.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.9
+- Factory wealth: 166630.0
+- Market daily sales: 192.0
+- Average happiness: 447.9
+
+2025-04-24 01:13:21,785 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,785 [INFO] 
+=== Day 116 ===
+2025-04-24 01:13:21,785 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1250.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.7
+- Factory wealth: 168400.0
+- Market daily sales: 206.0
+- Average happiness: 451.9
+
+2025-04-24 01:13:21,785 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,785 [INFO] 
+=== Day 117 ===
+2025-04-24 01:13:21,786 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1242.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 117.1
+- Factory wealth: 170210.0
+- Market daily sales: 208.0
+- Average happiness: 455.7
+
+2025-04-24 01:13:21,786 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,786 [INFO] 
+=== Day 118 ===
+2025-04-24 01:13:21,786 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1248.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 117.3
+- Factory wealth: 171740.0
+- Market daily sales: 194.0
+- Average happiness: 459.6
+
+2025-04-24 01:13:21,786 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,786 [INFO] 
+=== Day 119 ===
+2025-04-24 01:13:21,787 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1254.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 117.5
+- Factory wealth: 173270.0
+- Market daily sales: 194.0
+- Average happiness: 463.6
+
+2025-04-24 01:13:21,787 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,787 [INFO] 
+=== Day 120 ===
+2025-04-24 01:13:21,787 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1266.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 118.9
+- Factory wealth: 174680.0
+- Market daily sales: 188.0
+- Average happiness: 467.6
+
+2025-04-24 01:13:21,787 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,787 [INFO] 
+=== Day 121 ===
+2025-04-24 01:13:21,788 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1268.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 118.3
+- Factory wealth: 176290.0
+- Market daily sales: 198.0
+- Average happiness: 471.6
+
+2025-04-24 01:13:21,788 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,788 [INFO] 
+=== Day 122 ===
+2025-04-24 01:13:21,788 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1244.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 112.5
+- Factory wealth: 178420.0
+- Market daily sales: 224.0
+- Average happiness: 475.3
+
+2025-04-24 01:13:21,788 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,788 [INFO] 
+=== Day 123 ===
+2025-04-24 01:13:21,789 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1254.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 113.5
+- Factory wealth: 179870.0
+- Market daily sales: 190.0
+- Average happiness: 479.1
+
+2025-04-24 01:13:21,789 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,789 [INFO] 
+=== Day 124 ===
+2025-04-24 01:13:21,789 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1276.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.9
+- Factory wealth: 181080.0
+- Market daily sales: 178.0
+- Average happiness: 483.0
+
+2025-04-24 01:13:21,789 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,789 [INFO] 
+=== Day 125 ===
+2025-04-24 01:13:21,790 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1292.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.1
+- Factory wealth: 182410.0
+- Market daily sales: 184.0
+- Average happiness: 486.8
+
+2025-04-24 01:13:21,790 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,790 [INFO] 
+=== Day 126 ===
+2025-04-24 01:13:21,790 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1308.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.3
+- Factory wealth: 183740.0
+- Market daily sales: 184.0
+- Average happiness: 490.7
+
+2025-04-24 01:13:21,790 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,790 [INFO] 
+=== Day 127 ===
+2025-04-24 01:13:21,791 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1314.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.5
+- Factory wealth: 185270.0
+- Market daily sales: 194.0
+- Average happiness: 494.6
+
+2025-04-24 01:13:21,791 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,791 [INFO] 
+=== Day 128 ===
+2025-04-24 01:13:21,791 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1300.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 117.7
+- Factory wealth: 187200.0
+- Market daily sales: 214.0
+- Average happiness: 498.6
+
+2025-04-24 01:13:21,791 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,791 [INFO] 
+=== Day 129 ===
+2025-04-24 01:13:21,792 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1298.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.3
+- Factory wealth: 188890.0
+- Market daily sales: 202.0
+- Average happiness: 502.5
+
+2025-04-24 01:13:21,792 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,792 [INFO] 
+=== Day 130 ===
+2025-04-24 01:13:21,792 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1306.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.9
+- Factory wealth: 190380.0
+- Market daily sales: 192.0
+- Average happiness: 506.1
+
+2025-04-24 01:13:21,792 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,792 [INFO] 
+=== Day 131 ===
+2025-04-24 01:13:21,793 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1294.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 113.5
+- Factory wealth: 192270.0
+- Market daily sales: 212.0
+- Average happiness: 510.0
+
+2025-04-24 01:13:21,793 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,793 [INFO] 
+=== Day 132 ===
+2025-04-24 01:13:21,793 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1296.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 112.9
+- Factory wealth: 193880.0
+- Market daily sales: 198.0
+- Average happiness: 514.0
+
+2025-04-24 01:13:21,793 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,793 [INFO] 
+=== Day 133 ===
+2025-04-24 01:13:21,794 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1298.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 112.3
+- Factory wealth: 195490.0
+- Market daily sales: 198.0
+- Average happiness: 518.0
+
+2025-04-24 01:13:21,794 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,794 [INFO] 
+=== Day 134 ===
+2025-04-24 01:13:21,794 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1322.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.1
+- Factory wealth: 196660.0
+- Market daily sales: 176.0
+- Average happiness: 521.9
+
+2025-04-24 01:13:21,794 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,794 [INFO] 
+=== Day 135 ===
+2025-04-24 01:13:21,795 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1338.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 118.3
+- Factory wealth: 197990.0
+- Market daily sales: 184.0
+- Average happiness: 525.8
+
+2025-04-24 01:13:21,795 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,795 [INFO] 
+=== Day 136 ===
+2025-04-24 01:13:21,795 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1350.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.7
+- Factory wealth: 199400.0
+- Market daily sales: 188.0
+- Average happiness: 529.5
+
+2025-04-24 01:13:21,795 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,795 [INFO] 
+=== Day 137 ===
+2025-04-24 01:13:21,796 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1356.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.9
+- Factory wealth: 200930.0
+- Market daily sales: 194.0
+- Average happiness: 533.3
+
+2025-04-24 01:13:21,796 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,796 [INFO] 
+=== Day 138 ===
+2025-04-24 01:13:21,797 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1342.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.1
+- Factory wealth: 202860.0
+- Market daily sales: 214.0
+- Average happiness: 537.2
+
+2025-04-24 01:13:21,797 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,797 [INFO] 
+=== Day 139 ===
+2025-04-24 01:13:21,797 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1348.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.3
+- Factory wealth: 204390.0
+- Market daily sales: 194.0
+- Average happiness: 541.2
+
+2025-04-24 01:13:21,797 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,797 [INFO] 
+=== Day 140 ===
+2025-04-24 01:13:21,798 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1352.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.1
+- Factory wealth: 205960.0
+- Market daily sales: 196.0
+- Average happiness: 545.2
+
+2025-04-24 01:13:21,798 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,798 [INFO] 
+=== Day 141 ===
+2025-04-24 01:13:21,798 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1346.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 113.9
+- Factory wealth: 207730.0
+- Market daily sales: 206.0
+- Average happiness: 548.9
+
+2025-04-24 01:13:21,798 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,798 [INFO] 
+=== Day 142 ===
+2025-04-24 01:13:21,799 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1374.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 118.5
+- Factory wealth: 208820.0
+- Market daily sales: 172.0
+- Average happiness: 552.6
+
+2025-04-24 01:13:21,799 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,799 [INFO] 
+=== Day 143 ===
+2025-04-24 01:13:21,799 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1388.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 120.3
+- Factory wealth: 210190.0
+- Market daily sales: 186.0
+- Average happiness: 556.4
+
+2025-04-24 01:13:21,799 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,799 [INFO] 
+=== Day 144 ===
+2025-04-24 01:13:21,800 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1408.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 123.3
+- Factory wealth: 211440.0
+- Market daily sales: 180.0
+- Average happiness: 560.3
+
+2025-04-24 01:13:21,800 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,800 [INFO] 
+=== Day 145 ===
+2025-04-24 01:13:21,800 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1424.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.5
+- Factory wealth: 212770.0
+- Market daily sales: 184.0
+- Average happiness: 564.1
+
+2025-04-24 01:13:21,800 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,800 [INFO] 
+=== Day 146 ===
+2025-04-24 01:13:21,801 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1438.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 127.3
+- Factory wealth: 214140.0
+- Market daily sales: 186.0
+- Average happiness: 568.0
+
+2025-04-24 01:13:21,801 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,801 [INFO] 
+=== Day 147 ===
+2025-04-24 01:13:21,802 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1430.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 124.7
+- Factory wealth: 215950.0
+- Market daily sales: 208.0
+- Average happiness: 571.8
+
+2025-04-24 01:13:21,802 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,802 [INFO] 
+=== Day 148 ===
+2025-04-24 01:13:21,802 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1404.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 118.5
+- Factory wealth: 218120.0
+- Market daily sales: 226.0
+- Average happiness: 575.8
+
+2025-04-24 01:13:21,802 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,802 [INFO] 
+=== Day 149 ===
+2025-04-24 01:13:21,803 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1418.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 120.3
+- Factory wealth: 219490.0
+- Market daily sales: 186.0
+- Average happiness: 579.4
+
+2025-04-24 01:13:21,803 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,803 [INFO] 
+=== Day 150 ===
+2025-04-24 01:13:21,803 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1438.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 123.3
+- Factory wealth: 220740.0
+- Market daily sales: 180.0
+- Average happiness: 583.2
+
+2025-04-24 01:13:21,803 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,803 [INFO] 
+=== Day 151 ===
+2025-04-24 01:13:21,804 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1474.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 129.5
+- Factory wealth: 221670.0
+- Market daily sales: 164.0
+- Average happiness: 587.0
+
+2025-04-24 01:13:21,804 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,804 [INFO] 
+=== Day 152 ===
+2025-04-24 01:13:21,804 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1474.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 128.5
+- Factory wealth: 223320.0
+- Market daily sales: 200.0
+- Average happiness: 590.9
+
+2025-04-24 01:13:21,804 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,804 [INFO] 
+=== Day 153 ===
+2025-04-24 01:13:21,805 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1468.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 126.3
+- Factory wealth: 225090.0
+- Market daily sales: 206.0
+- Average happiness: 594.9
+
+2025-04-24 01:13:21,805 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,805 [INFO] 
+=== Day 154 ===
+2025-04-24 01:13:21,805 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1474.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 126.5
+- Factory wealth: 226620.0
+- Market daily sales: 194.0
+- Average happiness: 598.6
+
+2025-04-24 01:13:21,805 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,805 [INFO] 
+=== Day 155 ===
+2025-04-24 01:13:21,806 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1454.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.5
+- Factory wealth: 228670.0
+- Market daily sales: 220.0
+- Average happiness: 602.6
+
+2025-04-24 01:13:21,806 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,806 [INFO] 
+=== Day 156 ===
+2025-04-24 01:13:21,806 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1470.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 123.7
+- Factory wealth: 230000.0
+- Market daily sales: 184.0
+- Average happiness: 606.5
+
+2025-04-24 01:13:21,806 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,806 [INFO] 
+=== Day 157 ===
+2025-04-24 01:13:21,807 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1476.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 123.9
+- Factory wealth: 231530.0
+- Market daily sales: 194.0
+- Average happiness: 610.4
+
+2025-04-24 01:13:21,807 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,807 [INFO] 
+=== Day 158 ===
+2025-04-24 01:13:21,807 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1470.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.7
+- Factory wealth: 233300.0
+- Market daily sales: 206.0
+- Average happiness: 614.4
+
+2025-04-24 01:13:21,807 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,807 [INFO] 
+=== Day 159 ===
+2025-04-24 01:13:21,808 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1484.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 123.5
+- Factory wealth: 234670.0
+- Market daily sales: 186.0
+- Average happiness: 618.4
+
+2025-04-24 01:13:21,808 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,808 [INFO] 
+=== Day 160 ===
+2025-04-24 01:13:21,808 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1464.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 118.5
+- Factory wealth: 236720.0
+- Market daily sales: 220.0
+- Average happiness: 622.4
+
+2025-04-24 01:13:21,808 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,808 [INFO] 
+=== Day 161 ===
+2025-04-24 01:13:21,809 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1458.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.3
+- Factory wealth: 238490.0
+- Market daily sales: 206.0
+- Average happiness: 626.3
+
+2025-04-24 01:13:21,809 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,809 [INFO] 
+=== Day 162 ===
+2025-04-24 01:13:21,809 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1450.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 113.7
+- Factory wealth: 240300.0
+- Market daily sales: 208.0
+- Average happiness: 630.2
+
+2025-04-24 01:13:21,809 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,809 [INFO] 
+=== Day 163 ===
+2025-04-24 01:13:21,810 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1462.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 115.1
+- Factory wealth: 241710.0
+- Market daily sales: 188.0
+- Average happiness: 634.0
+
+2025-04-24 01:13:21,810 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,810 [INFO] 
+=== Day 164 ===
+2025-04-24 01:13:21,810 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1468.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 115.3
+- Factory wealth: 243240.0
+- Market daily sales: 194.0
+- Average happiness: 638.0
+
+2025-04-24 01:13:21,810 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,810 [INFO] 
+=== Day 165 ===
+2025-04-24 01:13:21,811 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1494.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.5
+- Factory wealth: 244370.0
+- Market daily sales: 174.0
+- Average happiness: 642.0
+
+2025-04-24 01:13:21,811 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,811 [INFO] 
+=== Day 166 ===
+2025-04-24 01:13:21,811 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1514.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 122.5
+- Factory wealth: 245620.0
+- Market daily sales: 180.0
+- Average happiness: 645.7
+
+2025-04-24 01:13:21,812 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,812 [INFO] 
+=== Day 167 ===
+2025-04-24 01:13:21,812 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1512.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.1
+- Factory wealth: 247310.0
+- Market daily sales: 202.0
+- Average happiness: 649.7
+
+2025-04-24 01:13:21,812 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,812 [INFO] 
+=== Day 168 ===
+2025-04-24 01:13:21,812 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1530.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 123.7
+- Factory wealth: 248600.0
+- Market daily sales: 182.0
+- Average happiness: 653.6
+
+2025-04-24 01:13:21,813 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,813 [INFO] 
+=== Day 169 ===
+2025-04-24 01:13:21,813 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1520.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 120.7
+- Factory wealth: 250450.0
+- Market daily sales: 210.0
+- Average happiness: 657.6
+
+2025-04-24 01:13:21,813 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,813 [INFO] 
+=== Day 170 ===
+2025-04-24 01:13:21,814 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1520.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.7
+- Factory wealth: 252100.0
+- Market daily sales: 200.0
+- Average happiness: 661.4
+
+2025-04-24 01:13:21,814 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,814 [INFO] 
+=== Day 171 ===
+2025-04-24 01:13:21,814 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1532.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.1
+- Factory wealth: 253510.0
+- Market daily sales: 188.0
+- Average happiness: 665.3
+
+2025-04-24 01:13:21,814 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,814 [INFO] 
+=== Day 172 ===
+2025-04-24 01:13:21,815 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1534.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 120.5
+- Factory wealth: 255120.0
+- Market daily sales: 198.0
+- Average happiness: 669.1
+
+2025-04-24 01:13:21,815 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,815 [INFO] 
+=== Day 173 ===
+2025-04-24 01:13:21,815 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1534.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.5
+- Factory wealth: 256770.0
+- Market daily sales: 200.0
+- Average happiness: 673.1
+
+2025-04-24 01:13:21,815 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,815 [INFO] 
+=== Day 174 ===
+2025-04-24 01:13:21,816 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1548.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.3
+- Factory wealth: 258140.0
+- Market daily sales: 186.0
+- Average happiness: 676.8
+
+2025-04-24 01:13:21,816 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,816 [INFO] 
+=== Day 175 ===
+2025-04-24 01:13:21,816 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1550.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 120.7
+- Factory wealth: 259750.0
+- Market daily sales: 198.0
+- Average happiness: 680.7
+
+2025-04-24 01:13:21,816 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,816 [INFO] 
+=== Day 176 ===
+2025-04-24 01:13:21,817 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1550.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.7
+- Factory wealth: 261400.0
+- Market daily sales: 200.0
+- Average happiness: 684.7
+
+2025-04-24 01:13:21,817 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,817 [INFO] 
+=== Day 177 ===
+2025-04-24 01:13:21,817 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1548.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 118.3
+- Factory wealth: 263090.0
+- Market daily sales: 202.0
+- Average happiness: 688.6
+
+2025-04-24 01:13:21,817 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,817 [INFO] 
+=== Day 178 ===
+2025-04-24 01:13:21,818 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1556.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 118.9
+- Factory wealth: 264580.0
+- Market daily sales: 192.0
+- Average happiness: 692.5
+
+2025-04-24 01:13:21,818 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,818 [INFO] 
+=== Day 179 ===
+2025-04-24 01:13:21,818 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1560.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 118.7
+- Factory wealth: 266150.0
+- Market daily sales: 196.0
+- Average happiness: 696.2
+
+2025-04-24 01:13:21,818 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,818 [INFO] 
+=== Day 180 ===
+2025-04-24 01:13:21,819 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1554.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.5
+- Factory wealth: 267920.0
+- Market daily sales: 206.0
+- Average happiness: 700.2
+
+2025-04-24 01:13:21,819 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,819 [INFO] 
+=== Day 181 ===
+2025-04-24 01:13:21,819 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1564.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 117.5
+- Factory wealth: 269370.0
+- Market daily sales: 190.0
+- Average happiness: 704.0
+
+2025-04-24 01:13:21,819 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,819 [INFO] 
+=== Day 182 ===
+2025-04-24 01:13:21,820 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1558.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 115.3
+- Factory wealth: 271140.0
+- Market daily sales: 206.0
+- Average happiness: 707.8
+
+2025-04-24 01:13:21,820 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,820 [INFO] 
+=== Day 183 ===
+2025-04-24 01:13:21,820 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1572.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 117.1
+- Factory wealth: 272510.0
+- Market daily sales: 186.0
+- Average happiness: 711.5
+
+2025-04-24 01:13:21,820 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,820 [INFO] 
+=== Day 184 ===
+2025-04-24 01:13:21,821 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1564.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 114.5
+- Factory wealth: 274320.0
+- Market daily sales: 208.0
+- Average happiness: 715.5
+
+2025-04-24 01:13:21,821 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,821 [INFO] 
+=== Day 185 ===
+2025-04-24 01:13:21,821 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1576.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 115.9
+- Factory wealth: 275730.0
+- Market daily sales: 188.0
+- Average happiness: 719.4
+
+2025-04-24 01:13:21,821 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,821 [INFO] 
+=== Day 186 ===
+2025-04-24 01:13:21,822 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1568.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 113.3
+- Factory wealth: 277540.0
+- Market daily sales: 208.0
+- Average happiness: 723.3
+
+2025-04-24 01:13:21,822 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,822 [INFO] 
+=== Day 187 ===
+2025-04-24 01:13:21,822 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1604.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.5
+- Factory wealth: 278470.0
+- Market daily sales: 164.0
+- Average happiness: 727.3
+
+2025-04-24 01:13:21,822 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,822 [INFO] 
+=== Day 188 ===
+2025-04-24 01:13:21,823 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1610.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.7
+- Factory wealth: 280000.0
+- Market daily sales: 194.0
+- Average happiness: 731.3
+
+2025-04-24 01:13:21,823 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,823 [INFO] 
+=== Day 189 ===
+2025-04-24 01:13:21,823 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1612.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 119.1
+- Factory wealth: 281610.0
+- Market daily sales: 198.0
+- Average happiness: 735.2
+
+2025-04-24 01:13:21,823 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,823 [INFO] 
+=== Day 190 ===
+2025-04-24 01:13:21,824 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1600.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 115.7
+- Factory wealth: 283500.0
+- Market daily sales: 212.0
+- Average happiness: 738.9
+
+2025-04-24 01:13:21,824 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,824 [INFO] 
+=== Day 191 ===
+2025-04-24 01:13:21,824 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1582.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 111.1
+- Factory wealth: 285510.0
+- Market daily sales: 218.0
+- Average happiness: 742.9
+
+2025-04-24 01:13:21,824 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,824 [INFO] 
+=== Day 192 ===
+2025-04-24 01:13:21,825 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1580.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 109.7
+- Factory wealth: 287200.0
+- Market daily sales: 202.0
+- Average happiness: 746.9
+
+2025-04-24 01:13:21,825 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,825 [INFO] 
+=== Day 193 ===
+2025-04-24 01:13:21,825 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1604.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 113.5
+- Factory wealth: 288370.0
+- Market daily sales: 176.0
+- Average happiness: 750.9
+
+2025-04-24 01:13:21,825 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,826 [INFO] 
+=== Day 194 ===
+2025-04-24 01:13:21,826 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1626.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.9
+- Factory wealth: 289580.0
+- Market daily sales: 178.0
+- Average happiness: 754.8
+
+2025-04-24 01:13:21,826 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,826 [INFO] 
+=== Day 195 ===
+2025-04-24 01:13:21,827 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1634.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 117.5
+- Factory wealth: 291070.0
+- Market daily sales: 192.0
+- Average happiness: 758.7
+
+2025-04-24 01:13:21,827 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,827 [INFO] 
+=== Day 196 ===
+2025-04-24 01:13:21,827 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1634.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.5
+- Factory wealth: 292720.0
+- Market daily sales: 200.0
+- Average happiness: 762.6
+
+2025-04-24 01:13:21,827 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,827 [INFO] 
+=== Day 197 ===
+2025-04-24 01:13:21,828 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1644.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 117.5
+- Factory wealth: 294170.0
+- Market daily sales: 190.0
+- Average happiness: 766.6
+
+2025-04-24 01:13:21,828 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,828 [INFO] 
+=== Day 198 ===
+2025-04-24 01:13:21,828 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1644.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.5
+- Factory wealth: 295820.0
+- Market daily sales: 200.0
+- Average happiness: 770.6
+
+2025-04-24 01:13:21,828 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,828 [INFO] 
+=== Day 199 ===
+2025-04-24 01:13:21,829 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1640.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 114.7
+- Factory wealth: 297550.0
+- Market daily sales: 204.0
+- Average happiness: 774.4
+
+2025-04-24 01:13:21,829 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,829 [INFO] 
+=== Day 200 ===
+2025-04-24 01:13:21,829 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1648.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 115.3
+- Factory wealth: 299040.0
+- Market daily sales: 192.0
+- Average happiness: 778.4
+
+2025-04-24 01:13:21,829 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,829 [INFO] 
+=== Day 201 ===
+2025-04-24 01:13:21,830 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1662.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 117.1
+- Factory wealth: 300410.0
+- Market daily sales: 186.0
+- Average happiness: 782.2
+
+2025-04-24 01:13:21,830 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,830 [INFO] 
+=== Day 202 ===
+2025-04-24 01:13:21,830 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1660.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 115.7
+- Factory wealth: 302100.0
+- Market daily sales: 202.0
+- Average happiness: 786.2
+
+2025-04-24 01:13:21,830 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,830 [INFO] 
+=== Day 203 ===
+2025-04-24 01:13:21,831 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1668.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.3
+- Factory wealth: 303590.0
+- Market daily sales: 192.0
+- Average happiness: 790.2
+
+2025-04-24 01:13:21,831 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,831 [INFO] 
+=== Day 204 ===
+2025-04-24 01:13:21,831 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1654.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 112.5
+- Factory wealth: 305520.0
+- Market daily sales: 214.0
+- Average happiness: 794.1
+
+2025-04-24 01:13:21,831 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,831 [INFO] 
+=== Day 205 ===
+2025-04-24 01:13:21,832 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1642.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 109.1
+- Factory wealth: 307410.0
+- Market daily sales: 212.0
+- Average happiness: 798.1
+
+2025-04-24 01:13:21,832 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,832 [INFO] 
+=== Day 206 ===
+2025-04-24 01:13:21,832 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1646.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 108.9
+- Factory wealth: 308980.0
+- Market daily sales: 196.0
+- Average happiness: 802.0
+
+2025-04-24 01:13:21,832 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,832 [INFO] 
+=== Day 207 ===
+2025-04-24 01:13:21,833 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1660.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 110.7
+- Factory wealth: 310350.0
+- Market daily sales: 186.0
+- Average happiness: 806.0
+
+2025-04-24 01:13:21,833 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,833 [INFO] 
+=== Day 208 ===
+2025-04-24 01:13:21,833 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1678.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 113.3
+- Factory wealth: 311640.0
+- Market daily sales: 182.0
+- Average happiness: 809.7
+
+2025-04-24 01:13:21,833 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,833 [INFO] 
+=== Day 209 ===
+2025-04-24 01:13:21,834 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1694.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 115.5
+- Factory wealth: 312970.0
+- Market daily sales: 184.0
+- Average happiness: 813.5
+
+2025-04-24 01:13:21,834 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,834 [INFO] 
+=== Day 210 ===
+2025-04-24 01:13:21,834 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1706.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.9
+- Factory wealth: 314380.0
+- Market daily sales: 188.0
+- Average happiness: 817.0
+
+2025-04-24 01:13:21,834 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,834 [INFO] 
+=== Day 211 ===
+2025-04-24 01:13:21,835 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1710.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 116.7
+- Factory wealth: 315950.0
+- Market daily sales: 196.0
+- Average happiness: 820.8
+
+2025-04-24 01:13:21,835 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,835 [INFO] 
+=== Day 212 ===
+2025-04-24 01:13:21,835 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1744.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 122.5
+- Factory wealth: 316920.0
+- Market daily sales: 166.0
+- Average happiness: 824.8
+
+2025-04-24 01:13:21,835 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,836 [INFO] 
+=== Day 213 ===
+2025-04-24 01:13:21,836 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1776.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 127.9
+- Factory wealth: 317930.0
+- Market daily sales: 168.0
+- Average happiness: 828.8
+
+2025-04-24 01:13:21,836 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,836 [INFO] 
+=== Day 214 ===
+2025-04-24 01:13:21,837 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1780.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 127.7
+- Factory wealth: 319500.0
+- Market daily sales: 196.0
+- Average happiness: 832.8
+
+2025-04-24 01:13:21,837 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,837 [INFO] 
+=== Day 215 ===
+2025-04-24 01:13:21,837 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1772.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.1
+- Factory wealth: 321310.0
+- Market daily sales: 208.0
+- Average happiness: 836.8
+
+2025-04-24 01:13:21,837 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,837 [INFO] 
+=== Day 216 ===
+2025-04-24 01:13:21,838 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1794.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 128.5
+- Factory wealth: 322520.0
+- Market daily sales: 178.0
+- Average happiness: 840.8
+
+2025-04-24 01:13:21,838 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,838 [INFO] 
+=== Day 217 ===
+2025-04-24 01:13:21,838 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1808.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 130.3
+- Factory wealth: 323890.0
+- Market daily sales: 186.0
+- Average happiness: 844.8
+
+2025-04-24 01:13:21,838 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,838 [INFO] 
+=== Day 218 ===
+2025-04-24 01:13:21,839 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1800.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 127.7
+- Factory wealth: 325700.0
+- Market daily sales: 208.0
+- Average happiness: 848.6
+
+2025-04-24 01:13:21,839 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,839 [INFO] 
+=== Day 219 ===
+2025-04-24 01:13:21,839 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1812.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 129.1
+- Factory wealth: 327110.0
+- Market daily sales: 188.0
+- Average happiness: 852.6
+
+2025-04-24 01:13:21,839 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,839 [INFO] 
+=== Day 220 ===
+2025-04-24 01:13:21,840 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1834.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 132.5
+- Factory wealth: 328320.0
+- Market daily sales: 178.0
+- Average happiness: 856.5
+
+2025-04-24 01:13:21,840 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,840 [INFO] 
+=== Day 221 ===
+2025-04-24 01:13:21,840 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1838.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 132.3
+- Factory wealth: 329890.0
+- Market daily sales: 196.0
+- Average happiness: 860.5
+
+2025-04-24 01:13:21,840 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,840 [INFO] 
+=== Day 222 ===
+2025-04-24 01:13:21,841 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1864.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 136.5
+- Factory wealth: 331020.0
+- Market daily sales: 174.0
+- Average happiness: 864.3
+
+2025-04-24 01:13:21,841 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,841 [INFO] 
+=== Day 223 ===
+2025-04-24 01:13:21,841 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1852.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 133.1
+- Factory wealth: 332910.0
+- Market daily sales: 212.0
+- Average happiness: 868.2
+
+2025-04-24 01:13:21,841 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,841 [INFO] 
+=== Day 224 ===
+2025-04-24 01:13:21,842 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1854.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 132.5
+- Factory wealth: 334520.0
+- Market daily sales: 198.0
+- Average happiness: 872.0
+
+2025-04-24 01:13:21,842 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,842 [INFO] 
+=== Day 225 ===
+2025-04-24 01:13:21,842 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1838.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 128.3
+- Factory wealth: 336490.0
+- Market daily sales: 216.0
+- Average happiness: 875.9
+
+2025-04-24 01:13:21,842 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,842 [INFO] 
+=== Day 226 ===
+2025-04-24 01:13:21,843 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1826.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 124.9
+- Factory wealth: 338380.0
+- Market daily sales: 212.0
+- Average happiness: 879.9
+
+2025-04-24 01:13:21,843 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,843 [INFO] 
+=== Day 227 ===
+2025-04-24 01:13:21,843 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1824.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 123.5
+- Factory wealth: 340070.0
+- Market daily sales: 202.0
+- Average happiness: 883.9
+
+2025-04-24 01:13:21,843 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,843 [INFO] 
+=== Day 228 ===
+2025-04-24 01:13:21,844 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1826.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 122.9
+- Factory wealth: 341680.0
+- Market daily sales: 198.0
+- Average happiness: 887.8
+
+2025-04-24 01:13:21,844 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,844 [INFO] 
+=== Day 229 ===
+2025-04-24 01:13:21,844 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1826.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.9
+- Factory wealth: 343330.0
+- Market daily sales: 200.0
+- Average happiness: 891.7
+
+2025-04-24 01:13:21,844 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,844 [INFO] 
+=== Day 230 ===
+2025-04-24 01:13:21,845 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1826.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 120.9
+- Factory wealth: 344980.0
+- Market daily sales: 200.0
+- Average happiness: 895.3
+
+2025-04-24 01:13:21,845 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,845 [INFO] 
+=== Day 231 ===
+2025-04-24 01:13:21,845 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1836.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 121.9
+- Factory wealth: 346430.0
+- Market daily sales: 190.0
+- Average happiness: 899.3
+
+2025-04-24 01:13:21,845 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,845 [INFO] 
+=== Day 232 ===
+2025-04-24 01:13:21,846 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1858.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.3
+- Factory wealth: 347640.0
+- Market daily sales: 178.0
+- Average happiness: 903.1
+
+2025-04-24 01:13:21,846 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,846 [INFO] 
+=== Day 233 ===
+2025-04-24 01:13:21,846 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1908.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 134.3
+- Factory wealth: 348290.0
+- Market daily sales: 150.0
+- Average happiness: 906.6
+
+2025-04-24 01:13:21,846 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,846 [INFO] 
+=== Day 234 ===
+2025-04-24 01:13:21,847 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1924.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 136.5
+- Factory wealth: 349620.0
+- Market daily sales: 184.0
+- Average happiness: 910.5
+
+2025-04-24 01:13:21,847 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,847 [INFO] 
+=== Day 235 ===
+2025-04-24 01:13:21,847 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1912.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 133.1
+- Factory wealth: 351510.0
+- Market daily sales: 212.0
+- Average happiness: 914.5
+
+2025-04-24 01:13:21,847 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,847 [INFO] 
+=== Day 236 ===
+2025-04-24 01:13:21,848 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1894.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 128.5
+- Factory wealth: 353520.0
+- Market daily sales: 218.0
+- Average happiness: 918.5
+
+2025-04-24 01:13:21,848 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,848 [INFO] 
+=== Day 237 ===
+2025-04-24 01:13:21,848 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1906.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 129.9
+- Factory wealth: 354930.0
+- Market daily sales: 188.0
+- Average happiness: 922.4
+
+2025-04-24 01:13:21,848 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,848 [INFO] 
+=== Day 238 ===
+2025-04-24 01:13:21,849 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1902.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 128.1
+- Factory wealth: 356660.0
+- Market daily sales: 204.0
+- Average happiness: 926.1
+
+2025-04-24 01:13:21,849 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,849 [INFO] 
+=== Day 239 ===
+2025-04-24 01:13:21,849 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1920.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 130.7
+- Factory wealth: 357950.0
+- Market daily sales: 182.0
+- Average happiness: 930.1
+
+2025-04-24 01:13:21,849 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,849 [INFO] 
+=== Day 240 ===
+2025-04-24 01:13:21,850 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1936.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 132.9
+- Factory wealth: 359280.0
+- Market daily sales: 184.0
+- Average happiness: 934.0
+
+2025-04-24 01:13:21,850 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,850 [INFO] 
+=== Day 241 ===
+2025-04-24 01:13:21,850 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1912.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 127.1
+- Factory wealth: 361410.0
+- Market daily sales: 224.0
+- Average happiness: 938.0
+
+2025-04-24 01:13:21,850 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,850 [INFO] 
+=== Day 242 ===
+2025-04-24 01:13:21,851 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1924.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 128.5
+- Factory wealth: 362820.0
+- Market daily sales: 188.0
+- Average happiness: 942.0
+
+2025-04-24 01:13:21,851 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,851 [INFO] 
+=== Day 243 ===
+2025-04-24 01:13:21,851 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1920.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 126.7
+- Factory wealth: 364550.0
+- Market daily sales: 204.0
+- Average happiness: 946.0
+
+2025-04-24 01:13:21,852 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,852 [INFO] 
+=== Day 244 ===
+2025-04-24 01:13:21,852 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1916.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 124.9
+- Factory wealth: 366280.0
+- Market daily sales: 204.0
+- Average happiness: 949.9
+
+2025-04-24 01:13:21,852 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,852 [INFO] 
+=== Day 245 ===
+2025-04-24 01:13:21,853 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1924.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.5
+- Factory wealth: 367770.0
+- Market daily sales: 192.0
+- Average happiness: 953.8
+
+2025-04-24 01:13:21,853 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,853 [INFO] 
+=== Day 246 ===
+2025-04-24 01:13:21,853 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1928.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.3
+- Factory wealth: 369340.0
+- Market daily sales: 196.0
+- Average happiness: 957.5
+
+2025-04-24 01:13:21,853 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,853 [INFO] 
+=== Day 247 ===
+2025-04-24 01:13:21,854 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1936.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.9
+- Factory wealth: 370830.0
+- Market daily sales: 192.0
+- Average happiness: 961.5
+
+2025-04-24 01:13:21,854 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,854 [INFO] 
+=== Day 248 ===
+2025-04-24 01:13:21,854 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1938.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.3
+- Factory wealth: 372440.0
+- Market daily sales: 198.0
+- Average happiness: 965.5
+
+2025-04-24 01:13:21,854 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,854 [INFO] 
+=== Day 249 ===
+2025-04-24 01:13:21,855 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1942.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.1
+- Factory wealth: 374010.0
+- Market daily sales: 196.0
+- Average happiness: 969.3
+
+2025-04-24 01:13:21,855 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,855 [INFO] 
+=== Day 250 ===
+2025-04-24 01:13:21,855 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1950.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.7
+- Factory wealth: 375500.0
+- Market daily sales: 192.0
+- Average happiness: 973.0
+
+2025-04-24 01:13:21,855 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,855 [INFO] 
+=== Day 251 ===
+2025-04-24 01:13:21,856 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1958.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 126.3
+- Factory wealth: 376990.0
+- Market daily sales: 192.0
+- Average happiness: 976.6
+
+2025-04-24 01:13:21,856 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,856 [INFO] 
+=== Day 252 ===
+2025-04-24 01:13:21,856 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1958.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.3
+- Factory wealth: 378640.0
+- Market daily sales: 200.0
+- Average happiness: 980.3
+
+2025-04-24 01:13:21,856 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,856 [INFO] 
+=== Day 253 ===
+2025-04-24 01:13:21,857 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1966.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 125.9
+- Factory wealth: 380130.0
+- Market daily sales: 192.0
+- Average happiness: 984.3
+
+2025-04-24 01:13:21,857 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,857 [INFO] 
+=== Day 254 ===
+2025-04-24 01:13:21,857 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 1982.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 128.1
+- Factory wealth: 381460.0
+- Market daily sales: 184.0
+- Average happiness: 988.2
+
+2025-04-24 01:13:21,857 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,857 [INFO] 
+=== Day 255 ===
+2025-04-24 01:13:21,858 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2004.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 131.5
+- Factory wealth: 382670.0
+- Market daily sales: 178.0
+- Average happiness: 992.2
+
+2025-04-24 01:13:21,858 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,858 [INFO] 
+=== Day 256 ===
+2025-04-24 01:13:21,858 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2012.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 132.1
+- Factory wealth: 384160.0
+- Market daily sales: 192.0
+- Average happiness: 996.2
+
+2025-04-24 01:13:21,858 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,858 [INFO] 
+=== Day 257 ===
+2025-04-24 01:13:21,859 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2012.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 131.1
+- Factory wealth: 385810.0
+- Market daily sales: 200.0
+- Average happiness: 1000.1
+
+2025-04-24 01:13:21,859 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,859 [INFO] 
+=== Day 258 ===
+2025-04-24 01:13:21,859 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2032.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 134.1
+- Factory wealth: 387060.0
+- Market daily sales: 180.0
+- Average happiness: 1003.8
+
+2025-04-24 01:13:21,859 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,859 [INFO] 
+=== Day 259 ===
+2025-04-24 01:13:21,860 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2024.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 131.5
+- Factory wealth: 388870.0
+- Market daily sales: 208.0
+- Average happiness: 1007.8
+
+2025-04-24 01:13:21,860 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,860 [INFO] 
+=== Day 260 ===
+2025-04-24 01:13:21,860 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2022.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 130.1
+- Factory wealth: 390560.0
+- Market daily sales: 202.0
+- Average happiness: 1011.7
+
+2025-04-24 01:13:21,860 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,860 [INFO] 
+=== Day 261 ===
+2025-04-24 01:13:21,861 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2026.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 129.9
+- Factory wealth: 392130.0
+- Market daily sales: 196.0
+- Average happiness: 1015.5
+
+2025-04-24 01:13:21,861 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,861 [INFO] 
+=== Day 262 ===
+2025-04-24 01:13:21,861 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2036.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 130.9
+- Factory wealth: 393580.0
+- Market daily sales: 190.0
+- Average happiness: 1019.4
+
+2025-04-24 01:13:21,861 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,861 [INFO] 
+=== Day 263 ===
+2025-04-24 01:13:21,862 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2052.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 133.1
+- Factory wealth: 394910.0
+- Market daily sales: 184.0
+- Average happiness: 1023.0
+
+2025-04-24 01:13:21,862 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,862 [INFO] 
+=== Day 264 ===
+2025-04-24 01:13:21,862 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2062.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 134.1
+- Factory wealth: 396360.0
+- Market daily sales: 190.0
+- Average happiness: 1026.8
+
+2025-04-24 01:13:21,862 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,862 [INFO] 
+=== Day 265 ===
+2025-04-24 01:13:21,863 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2072.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 135.1
+- Factory wealth: 397810.0
+- Market daily sales: 190.0
+- Average happiness: 1030.6
+
+2025-04-24 01:13:21,863 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,863 [INFO] 
+=== Day 266 ===
+2025-04-24 01:13:21,863 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2060.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 131.7
+- Factory wealth: 399700.0
+- Market daily sales: 212.0
+- Average happiness: 1034.6
+
+2025-04-24 01:13:21,863 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,863 [INFO] 
+=== Day 267 ===
+2025-04-24 01:13:21,864 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2042.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 127.1
+- Factory wealth: 401710.0
+- Market daily sales: 218.0
+- Average happiness: 1038.6
+
+2025-04-24 01:13:21,864 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,864 [INFO] 
+=== Day 268 ===
+2025-04-24 01:13:21,864 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2048.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 127.3
+- Factory wealth: 403240.0
+- Market daily sales: 194.0
+- Average happiness: 1042.4
+
+2025-04-24 01:13:21,864 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,864 [INFO] 
+=== Day 269 ===
+2025-04-24 01:13:21,865 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2062.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 129.1
+- Factory wealth: 404610.0
+- Market daily sales: 186.0
+- Average happiness: 1046.2
+
+2025-04-24 01:13:21,865 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,865 [INFO] 
+=== Day 270 ===
+2025-04-24 01:13:21,865 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2078.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 131.3
+- Factory wealth: 405940.0
+- Market daily sales: 184.0
+- Average happiness: 1049.9
+
+2025-04-24 01:13:21,866 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,866 [INFO] 
+=== Day 271 ===
+2025-04-24 01:13:21,866 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2088.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 132.3
+- Factory wealth: 407390.0
+- Market daily sales: 190.0
+- Average happiness: 1053.9
+
+2025-04-24 01:13:21,866 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,866 [INFO] 
+=== Day 272 ===
+2025-04-24 01:13:21,867 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2088.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 131.3
+- Factory wealth: 409040.0
+- Market daily sales: 200.0
+- Average happiness: 1057.9
+
+2025-04-24 01:13:21,867 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,867 [INFO] 
+=== Day 273 ===
+2025-04-24 01:13:21,867 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2110.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 134.7
+- Factory wealth: 410250.0
+- Market daily sales: 178.0
+- Average happiness: 1061.4
+
+2025-04-24 01:13:21,867 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,867 [INFO] 
+=== Day 274 ===
+2025-04-24 01:13:21,868 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2100.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 131.7
+- Factory wealth: 412100.0
+- Market daily sales: 210.0
+- Average happiness: 1065.4
+
+2025-04-24 01:13:21,868 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,868 [INFO] 
+=== Day 275 ===
+2025-04-24 01:13:21,868 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2110.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 132.7
+- Factory wealth: 413550.0
+- Market daily sales: 190.0
+- Average happiness: 1069.3
+
+2025-04-24 01:13:21,868 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,868 [INFO] 
+=== Day 276 ===
+2025-04-24 01:13:21,869 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2140.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 137.7
+- Factory wealth: 414600.0
+- Market daily sales: 170.0
+- Average happiness: 1073.1
+
+2025-04-24 01:13:21,869 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,869 [INFO] 
+=== Day 277 ===
+2025-04-24 01:13:21,869 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2138.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 136.3
+- Factory wealth: 416290.0
+- Market daily sales: 202.0
+- Average happiness: 1077.0
+
+2025-04-24 01:13:21,869 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,869 [INFO] 
+=== Day 278 ===
+2025-04-24 01:13:21,870 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2150.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 137.7
+- Factory wealth: 417700.0
+- Market daily sales: 188.0
+- Average happiness: 1080.8
+
+2025-04-24 01:13:21,870 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,870 [INFO] 
+=== Day 279 ===
+2025-04-24 01:13:21,870 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2168.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 140.3
+- Factory wealth: 418990.0
+- Market daily sales: 182.0
+- Average happiness: 1084.8
+
+2025-04-24 01:13:21,870 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,870 [INFO] 
+=== Day 280 ===
+2025-04-24 01:13:21,871 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2166.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 138.9
+- Factory wealth: 420680.0
+- Market daily sales: 202.0
+- Average happiness: 1088.7
+
+2025-04-24 01:13:21,871 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,871 [INFO] 
+=== Day 281 ===
+2025-04-24 01:13:21,871 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2168.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 138.3
+- Factory wealth: 422290.0
+- Market daily sales: 198.0
+- Average happiness: 1092.7
+
+2025-04-24 01:13:21,871 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,871 [INFO] 
+=== Day 282 ===
+2025-04-24 01:13:21,872 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2172.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 138.1
+- Factory wealth: 423860.0
+- Market daily sales: 196.0
+- Average happiness: 1096.6
+
+2025-04-24 01:13:21,872 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,872 [INFO] 
+=== Day 283 ===
+2025-04-24 01:13:21,872 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2182.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 139.1
+- Factory wealth: 425310.0
+- Market daily sales: 190.0
+- Average happiness: 1100.6
+
+2025-04-24 01:13:21,872 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,872 [INFO] 
+=== Day 284 ===
+2025-04-24 01:13:21,873 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2186.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 138.9
+- Factory wealth: 426880.0
+- Market daily sales: 196.0
+- Average happiness: 1104.5
+
+2025-04-24 01:13:21,873 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,873 [INFO] 
+=== Day 285 ===
+2025-04-24 01:13:21,873 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2176.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 135.9
+- Factory wealth: 428730.0
+- Market daily sales: 210.0
+- Average happiness: 1108.5
+
+2025-04-24 01:13:21,873 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,873 [INFO] 
+=== Day 286 ===
+2025-04-24 01:13:21,874 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2176.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 134.9
+- Factory wealth: 430380.0
+- Market daily sales: 200.0
+- Average happiness: 1112.4
+
+2025-04-24 01:13:21,874 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,874 [INFO] 
+=== Day 287 ===
+2025-04-24 01:13:21,874 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2164.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 131.5
+- Factory wealth: 432270.0
+- Market daily sales: 212.0
+- Average happiness: 1116.4
+
+2025-04-24 01:13:21,874 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,874 [INFO] 
+=== Day 288 ===
+2025-04-24 01:13:21,875 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2172.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 132.1
+- Factory wealth: 433760.0
+- Market daily sales: 192.0
+- Average happiness: 1120.4
+
+2025-04-24 01:13:21,875 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,875 [INFO] 
+=== Day 289 ===
+2025-04-24 01:13:21,875 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2182.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 133.1
+- Factory wealth: 435210.0
+- Market daily sales: 190.0
+- Average happiness: 1124.1
+
+2025-04-24 01:13:21,875 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,875 [INFO] 
+=== Day 290 ===
+2025-04-24 01:13:21,876 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2194.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 134.5
+- Factory wealth: 436620.0
+- Market daily sales: 188.0
+- Average happiness: 1128.1
+
+2025-04-24 01:13:21,876 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,876 [INFO] 
+=== Day 291 ===
+2025-04-24 01:13:21,876 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2198.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 134.3
+- Factory wealth: 438190.0
+- Market daily sales: 196.0
+- Average happiness: 1132.0
+
+2025-04-24 01:13:21,876 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,876 [INFO] 
+=== Day 292 ===
+2025-04-24 01:13:21,877 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2204.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 134.5
+- Factory wealth: 439720.0
+- Market daily sales: 194.0
+- Average happiness: 1135.9
+
+2025-04-24 01:13:21,877 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,877 [INFO] 
+=== Day 293 ===
+2025-04-24 01:13:21,877 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2218.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 136.3
+- Factory wealth: 441090.0
+- Market daily sales: 186.0
+- Average happiness: 1139.9
+
+2025-04-24 01:13:21,877 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,877 [INFO] 
+=== Day 294 ===
+2025-04-24 01:13:21,878 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2238.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 139.3
+- Factory wealth: 442340.0
+- Market daily sales: 180.0
+- Average happiness: 1143.5
+
+2025-04-24 01:13:21,878 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,878 [INFO] 
+=== Day 295 ===
+2025-04-24 01:13:21,878 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2240.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 138.7
+- Factory wealth: 443950.0
+- Market daily sales: 198.0
+- Average happiness: 1147.5
+
+2025-04-24 01:13:21,878 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,878 [INFO] 
+=== Day 296 ===
+2025-04-24 01:13:21,879 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2248.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 139.3
+- Factory wealth: 445440.0
+- Market daily sales: 192.0
+- Average happiness: 1151.5
+
+2025-04-24 01:13:21,879 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,879 [INFO] 
+=== Day 297 ===
+2025-04-24 01:13:21,879 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2248.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 138.3
+- Factory wealth: 447090.0
+- Market daily sales: 200.0
+- Average happiness: 1155.5
+
+2025-04-24 01:13:21,880 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,880 [INFO] 
+=== Day 298 ===
+2025-04-24 01:13:21,880 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2260.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 139.7
+- Factory wealth: 448500.0
+- Market daily sales: 188.0
+- Average happiness: 1159.3
+
+2025-04-24 01:13:21,880 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,880 [INFO] 
+=== Day 299 ===
+2025-04-24 01:13:21,881 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2272.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 141.1
+- Factory wealth: 449910.0
+- Market daily sales: 188.0
+- Average happiness: 1163.3
+
+2025-04-24 01:13:21,881 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,881 [INFO] 
+=== Day 300 ===
+2025-04-24 01:13:21,881 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2294.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 144.5
+- Factory wealth: 451120.0
+- Market daily sales: 178.0
+- Average happiness: 1167.3
+
+2025-04-24 01:13:21,881 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,881 [INFO] 
+=== Day 301 ===
+2025-04-24 01:13:21,882 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2294.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 143.5
+- Factory wealth: 452770.0
+- Market daily sales: 200.0
+- Average happiness: 1171.3
+
+2025-04-24 01:13:21,882 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,882 [INFO] 
+=== Day 302 ===
+2025-04-24 01:13:21,882 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2294.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 142.5
+- Factory wealth: 454420.0
+- Market daily sales: 200.0
+- Average happiness: 1175.3
+
+2025-04-24 01:13:21,882 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,882 [INFO] 
+=== Day 303 ===
+2025-04-24 01:13:21,883 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2296.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 141.9
+- Factory wealth: 456030.0
+- Market daily sales: 198.0
+- Average happiness: 1179.3
+
+2025-04-24 01:13:21,883 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,883 [INFO] 
+=== Day 304 ===
+2025-04-24 01:13:21,883 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2312.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 144.1
+- Factory wealth: 457360.0
+- Market daily sales: 184.0
+- Average happiness: 1183.3
+
+2025-04-24 01:13:21,883 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,883 [INFO] 
+=== Day 305 ===
+2025-04-24 01:13:21,884 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2328.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 146.3
+- Factory wealth: 458690.0
+- Market daily sales: 184.0
+- Average happiness: 1187.3
+
+2025-04-24 01:13:21,884 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,884 [INFO] 
+=== Day 306 ===
+2025-04-24 01:13:21,884 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2342.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 148.1
+- Factory wealth: 460060.0
+- Market daily sales: 186.0
+- Average happiness: 1191.3
+
+2025-04-24 01:13:21,884 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,884 [INFO] 
+=== Day 307 ===
+2025-04-24 01:13:21,885 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2332.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.1
+- Factory wealth: 461910.0
+- Market daily sales: 210.0
+- Average happiness: 1195.2
+
+2025-04-24 01:13:21,885 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,885 [INFO] 
+=== Day 308 ===
+2025-04-24 01:13:21,885 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2330.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 143.7
+- Factory wealth: 463600.0
+- Market daily sales: 202.0
+- Average happiness: 1199.2
+
+2025-04-24 01:13:21,885 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,885 [INFO] 
+=== Day 309 ===
+2025-04-24 01:13:21,886 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2346.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.9
+- Factory wealth: 464930.0
+- Market daily sales: 184.0
+- Average happiness: 1203.0
+
+2025-04-24 01:13:21,886 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,886 [INFO] 
+=== Day 310 ===
+2025-04-24 01:13:21,886 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2350.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.7
+- Factory wealth: 466500.0
+- Market daily sales: 196.0
+- Average happiness: 1206.9
+
+2025-04-24 01:13:21,886 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,886 [INFO] 
+=== Day 311 ===
+2025-04-24 01:13:21,887 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2352.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.1
+- Factory wealth: 468110.0
+- Market daily sales: 198.0
+- Average happiness: 1210.8
+
+2025-04-24 01:13:21,887 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,887 [INFO] 
+=== Day 312 ===
+2025-04-24 01:13:21,887 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2360.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.7
+- Factory wealth: 469600.0
+- Market daily sales: 192.0
+- Average happiness: 1214.8
+
+2025-04-24 01:13:21,887 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,887 [INFO] 
+=== Day 313 ===
+2025-04-24 01:13:21,888 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2366.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.9
+- Factory wealth: 471130.0
+- Market daily sales: 194.0
+- Average happiness: 1218.8
+
+2025-04-24 01:13:21,888 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,888 [INFO] 
+=== Day 314 ===
+2025-04-24 01:13:21,888 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2358.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 143.3
+- Factory wealth: 472940.0
+- Market daily sales: 208.0
+- Average happiness: 1222.7
+
+2025-04-24 01:13:21,888 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,888 [INFO] 
+=== Day 315 ===
+2025-04-24 01:13:21,889 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2376.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.9
+- Factory wealth: 474230.0
+- Market daily sales: 182.0
+- Average happiness: 1226.7
+
+2025-04-24 01:13:21,889 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,889 [INFO] 
+=== Day 316 ===
+2025-04-24 01:13:21,889 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2388.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.3
+- Factory wealth: 475640.0
+- Market daily sales: 188.0
+- Average happiness: 1230.6
+
+2025-04-24 01:13:21,889 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,889 [INFO] 
+=== Day 317 ===
+2025-04-24 01:13:21,890 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2390.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 146.7
+- Factory wealth: 477250.0
+- Market daily sales: 198.0
+- Average happiness: 1234.6
+
+2025-04-24 01:13:21,890 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,890 [INFO] 
+=== Day 318 ===
+2025-04-24 01:13:21,890 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2394.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 146.5
+- Factory wealth: 478820.0
+- Market daily sales: 196.0
+- Average happiness: 1238.6
+
+2025-04-24 01:13:21,890 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,890 [INFO] 
+=== Day 319 ===
+2025-04-24 01:13:21,891 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2402.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.1
+- Factory wealth: 480310.0
+- Market daily sales: 192.0
+- Average happiness: 1242.4
+
+2025-04-24 01:13:21,891 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,891 [INFO] 
+=== Day 320 ===
+2025-04-24 01:13:21,892 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2414.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 148.5
+- Factory wealth: 481720.0
+- Market daily sales: 188.0
+- Average happiness: 1246.4
+
+2025-04-24 01:13:21,892 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,892 [INFO] 
+=== Day 321 ===
+2025-04-24 01:13:21,892 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2426.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 149.9
+- Factory wealth: 483130.0
+- Market daily sales: 188.0
+- Average happiness: 1250.4
+
+2025-04-24 01:13:21,892 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,892 [INFO] 
+=== Day 322 ===
+2025-04-24 01:13:21,893 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2438.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 151.3
+- Factory wealth: 484540.0
+- Market daily sales: 188.0
+- Average happiness: 1254.4
+
+2025-04-24 01:13:21,893 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,893 [INFO] 
+=== Day 323 ===
+2025-04-24 01:13:21,893 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2444.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 151.5
+- Factory wealth: 486070.0
+- Market daily sales: 194.0
+- Average happiness: 1258.4
+
+2025-04-24 01:13:21,893 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,893 [INFO] 
+=== Day 324 ===
+2025-04-24 01:13:21,894 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2454.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 152.5
+- Factory wealth: 487520.0
+- Market daily sales: 190.0
+- Average happiness: 1262.3
+
+2025-04-24 01:13:21,894 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,894 [INFO] 
+=== Day 325 ===
+2025-04-24 01:13:21,894 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2448.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 150.3
+- Factory wealth: 489290.0
+- Market daily sales: 206.0
+- Average happiness: 1266.3
+
+2025-04-24 01:13:21,894 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,894 [INFO] 
+=== Day 326 ===
+2025-04-24 01:13:21,895 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2456.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 150.9
+- Factory wealth: 490780.0
+- Market daily sales: 192.0
+- Average happiness: 1270.3
+
+2025-04-24 01:13:21,895 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,895 [INFO] 
+=== Day 327 ===
+2025-04-24 01:13:21,895 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2438.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 146.3
+- Factory wealth: 492790.0
+- Market daily sales: 218.0
+- Average happiness: 1274.3
+
+2025-04-24 01:13:21,895 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,895 [INFO] 
+=== Day 328 ===
+2025-04-24 01:13:21,896 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2438.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.3
+- Factory wealth: 494440.0
+- Market daily sales: 200.0
+- Average happiness: 1278.3
+
+2025-04-24 01:13:21,896 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,896 [INFO] 
+=== Day 329 ===
+2025-04-24 01:13:21,896 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2456.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.9
+- Factory wealth: 495730.0
+- Market daily sales: 182.0
+- Average happiness: 1282.3
+
+2025-04-24 01:13:21,896 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,896 [INFO] 
+=== Day 330 ===
+2025-04-24 01:13:21,897 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2462.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 148.1
+- Factory wealth: 497260.0
+- Market daily sales: 194.0
+- Average happiness: 1286.1
+
+2025-04-24 01:13:21,897 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,897 [INFO] 
+=== Day 331 ===
+2025-04-24 01:13:21,897 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2460.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 146.7
+- Factory wealth: 498950.0
+- Market daily sales: 202.0
+- Average happiness: 1290.1
+
+2025-04-24 01:13:21,897 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,897 [INFO] 
+=== Day 332 ===
+2025-04-24 01:13:21,898 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2462.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 146.1
+- Factory wealth: 500560.0
+- Market daily sales: 198.0
+- Average happiness: 1294.0
+
+2025-04-24 01:13:21,898 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,898 [INFO] 
+=== Day 333 ===
+2025-04-24 01:13:21,898 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2466.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.9
+- Factory wealth: 502130.0
+- Market daily sales: 196.0
+- Average happiness: 1297.8
+
+2025-04-24 01:13:21,898 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,898 [INFO] 
+=== Day 334 ===
+2025-04-24 01:13:21,899 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2468.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.3
+- Factory wealth: 503740.0
+- Market daily sales: 198.0
+- Average happiness: 1301.8
+
+2025-04-24 01:13:21,899 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,899 [INFO] 
+=== Day 335 ===
+2025-04-24 01:13:21,899 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2484.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.5
+- Factory wealth: 505070.0
+- Market daily sales: 184.0
+- Average happiness: 1305.7
+
+2025-04-24 01:13:21,899 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,899 [INFO] 
+=== Day 336 ===
+2025-04-24 01:13:21,900 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2504.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 150.5
+- Factory wealth: 506320.0
+- Market daily sales: 180.0
+- Average happiness: 1309.6
+
+2025-04-24 01:13:21,900 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,900 [INFO] 
+=== Day 337 ===
+2025-04-24 01:13:21,900 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2500.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 148.7
+- Factory wealth: 508050.0
+- Market daily sales: 204.0
+- Average happiness: 1313.6
+
+2025-04-24 01:13:21,900 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,900 [INFO] 
+=== Day 338 ===
+2025-04-24 01:13:21,901 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2498.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.3
+- Factory wealth: 509740.0
+- Market daily sales: 202.0
+- Average happiness: 1317.5
+
+2025-04-24 01:13:21,901 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,901 [INFO] 
+=== Day 339 ===
+2025-04-24 01:13:21,901 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2494.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.5
+- Factory wealth: 511470.0
+- Market daily sales: 204.0
+- Average happiness: 1321.4
+
+2025-04-24 01:13:21,901 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,901 [INFO] 
+=== Day 340 ===
+2025-04-24 01:13:21,902 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2490.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 143.7
+- Factory wealth: 513200.0
+- Market daily sales: 204.0
+- Average happiness: 1325.2
+
+2025-04-24 01:13:21,902 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,902 [INFO] 
+=== Day 341 ===
+2025-04-24 01:13:21,902 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2498.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 144.3
+- Factory wealth: 514690.0
+- Market daily sales: 192.0
+- Average happiness: 1329.2
+
+2025-04-24 01:13:21,902 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,902 [INFO] 
+=== Day 342 ===
+2025-04-24 01:13:21,903 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2506.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 144.9
+- Factory wealth: 516180.0
+- Market daily sales: 192.0
+- Average happiness: 1333.2
+
+2025-04-24 01:13:21,903 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,903 [INFO] 
+=== Day 343 ===
+2025-04-24 01:13:21,903 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2508.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 144.3
+- Factory wealth: 517790.0
+- Market daily sales: 198.0
+- Average happiness: 1337.0
+
+2025-04-24 01:13:21,904 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,904 [INFO] 
+=== Day 344 ===
+2025-04-24 01:13:21,904 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2514.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 144.5
+- Factory wealth: 519320.0
+- Market daily sales: 194.0
+- Average happiness: 1341.0
+
+2025-04-24 01:13:21,904 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,904 [INFO] 
+=== Day 345 ===
+2025-04-24 01:13:21,905 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2526.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 145.9
+- Factory wealth: 520730.0
+- Market daily sales: 188.0
+- Average happiness: 1344.9
+
+2025-04-24 01:13:21,905 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,905 [INFO] 
+=== Day 346 ===
+2025-04-24 01:13:21,905 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2548.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 149.3
+- Factory wealth: 521940.0
+- Market daily sales: 178.0
+- Average happiness: 1348.9
+
+2025-04-24 01:13:21,905 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,905 [INFO] 
+=== Day 347 ===
+2025-04-24 01:13:21,906 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2544.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.5
+- Factory wealth: 523670.0
+- Market daily sales: 204.0
+- Average happiness: 1352.9
+
+2025-04-24 01:13:21,906 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,906 [INFO] 
+=== Day 348 ===
+2025-04-24 01:13:21,906 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2548.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.3
+- Factory wealth: 525240.0
+- Market daily sales: 196.0
+- Average happiness: 1356.8
+
+2025-04-24 01:13:21,906 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,906 [INFO] 
+=== Day 349 ===
+2025-04-24 01:13:21,907 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2556.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.9
+- Factory wealth: 526730.0
+- Market daily sales: 192.0
+- Average happiness: 1360.8
+
+2025-04-24 01:13:21,907 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,907 [INFO] 
+=== Day 350 ===
+2025-04-24 01:13:21,907 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2552.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 146.1
+- Factory wealth: 528460.0
+- Market daily sales: 204.0
+- Average happiness: 1364.8
+
+2025-04-24 01:13:21,907 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,907 [INFO] 
+=== Day 351 ===
+2025-04-24 01:13:21,908 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2564.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.5
+- Factory wealth: 529870.0
+- Market daily sales: 188.0
+- Average happiness: 1368.6
+
+2025-04-24 01:13:21,908 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,908 [INFO] 
+=== Day 352 ===
+2025-04-24 01:13:21,908 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2564.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 146.5
+- Factory wealth: 531520.0
+- Market daily sales: 200.0
+- Average happiness: 1372.5
+
+2025-04-24 01:13:21,908 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,908 [INFO] 
+=== Day 353 ===
+2025-04-24 01:13:21,909 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2576.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.9
+- Factory wealth: 532930.0
+- Market daily sales: 188.0
+- Average happiness: 1376.5
+
+2025-04-24 01:13:21,909 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,909 [INFO] 
+=== Day 354 ===
+2025-04-24 01:13:21,909 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2586.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 148.9
+- Factory wealth: 534380.0
+- Market daily sales: 190.0
+- Average happiness: 1380.3
+
+2025-04-24 01:13:21,909 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,909 [INFO] 
+=== Day 355 ===
+2025-04-24 01:13:21,910 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2592.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 149.1
+- Factory wealth: 535910.0
+- Market daily sales: 194.0
+- Average happiness: 1384.3
+
+2025-04-24 01:13:21,910 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,910 [INFO] 
+=== Day 356 ===
+2025-04-24 01:13:21,910 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2590.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 147.7
+- Factory wealth: 537600.0
+- Market daily sales: 202.0
+- Average happiness: 1388.3
+
+2025-04-24 01:13:21,910 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,910 [INFO] 
+=== Day 357 ===
+2025-04-24 01:13:21,911 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2588.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 146.3
+- Factory wealth: 539290.0
+- Market daily sales: 202.0
+- Average happiness: 1392.0
+
+2025-04-24 01:13:21,911 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,911 [INFO] 
+=== Day 358 ===
+2025-04-24 01:13:21,911 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2586.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 144.9
+- Factory wealth: 540980.0
+- Market daily sales: 202.0
+- Average happiness: 1396.0
+
+2025-04-24 01:13:21,911 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,911 [INFO] 
+=== Day 359 ===
+2025-04-24 01:13:21,912 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2568.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 140.3
+- Factory wealth: 542990.0
+- Market daily sales: 218.0
+- Average happiness: 1400.0
+
+2025-04-24 01:13:21,912 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,912 [INFO] 
+=== Day 360 ===
+2025-04-24 01:13:21,912 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2582.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 142.1
+- Factory wealth: 544360.0
+- Market daily sales: 186.0
+- Average happiness: 1404.0
+
+2025-04-24 01:13:21,912 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,912 [INFO] 
+=== Day 361 ===
+2025-04-24 01:13:21,913 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2594.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 143.5
+- Factory wealth: 545770.0
+- Market daily sales: 188.0
+- Average happiness: 1408.0
+
+2025-04-24 01:13:21,913 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,913 [INFO] 
+=== Day 362 ===
+2025-04-24 01:13:21,913 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2592.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 142.1
+- Factory wealth: 547460.0
+- Market daily sales: 202.0
+- Average happiness: 1411.9
+
+2025-04-24 01:13:21,913 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,914 [INFO] 
+=== Day 363 ===
+2025-04-24 01:13:21,914 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2596.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 141.9
+- Factory wealth: 549030.0
+- Market daily sales: 196.0
+- Average happiness: 1415.9
+
+2025-04-24 01:13:21,914 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,914 [INFO] 
+=== Day 364 ===
+2025-04-24 01:13:21,915 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2610.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 143.7
+- Factory wealth: 550400.0
+- Market daily sales: 186.0
+- Average happiness: 1419.8
+
+2025-04-24 01:13:21,915 [INFO] Economic Phase: Expansion
+2025-04-24 01:13:21,915 [INFO] 
+=== Day 365 ===
+2025-04-24 01:13:21,915 [INFO] Economy Summary:
+- Unemployment: 0.0%
+- Inventory: 2620.0 
+- Daily GDP: 4000.0
+- Daily production: 200.0
+- Average workers' Wealth: 144.7
+- Factory wealth: 551850.0
+- Market daily sales: 190.0
+- Average happiness: 1423.7
+
+2025-04-24 01:13:21,915 [INFO] Economic Phase: Expansion
