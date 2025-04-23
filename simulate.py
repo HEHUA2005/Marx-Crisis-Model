@@ -1,10 +1,5 @@
 import mesa
-import numpy as np
 import logging
-from enum import Enum
-from datetime import datetime
-import pandas as pd
-from mesa import DataCollector
 from Agents import (
     Worker,
     Factory,
@@ -47,7 +42,7 @@ class CrisisModel(mesa.Model):
                     pos = temp
                     self.position_set.add(pos)
                     break
-            worker = Worker(i + 10, self, pos)
+            worker = Worker(i + 1, self, pos)
             self.workers[i] = worker
             logging.info(f"Creating worker {i} at {pos}")
             self.schedule.add(worker)
@@ -79,13 +74,19 @@ class CrisisModel(mesa.Model):
         )
         inventory = self.factory.inventory
         f = self.factory
-        gdp = f.daily_production * self.market.prices
-
+        daily_gdp = f.daily_production * self.market.prices
+        average_worker_wealth = sum(
+            [w.wealth for w in self.schedule.agents if isinstance(w, Worker)]
+        ) / len([w for w in self.schedule.agents if isinstance(w, Worker)])
         logging.info(
             f"Economy Summary:\n"
             f"- Unemployment: {unemployment:.1%}\n"
             f"- Inventory: {inventory:.1f} \n"
-            f"- GDP: {gdp:.1f}\n"
+            f"- Daily GDP: {daily_gdp:.1f}\n"
+            f"- Daily production: {f.daily_production:.1f}\n"
+            f"- Average workers' Wealth: {average_worker_wealth:.1f}\n"
+            f"- Factory wealth: {f.wealth:.1f}\n"
+            f"- Market daily sales: {self.market.daily_sales:.1f}\n"
         )
 
         # 检测经济周期阶段
@@ -100,8 +101,8 @@ class CrisisModel(mesa.Model):
 
 
 def run_simulation():
-    model = CrisisModel(N=20)
-    for i in range(360):  # 模拟1年
+    model = CrisisModel(N=50)
+    for i in range(100):  # 模拟天数
         model.step()
 
 

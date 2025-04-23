@@ -15,8 +15,8 @@ class Worker(mesa.Agent):
     def __init__(self, unique_id, model, pos):
         super().__init__(unique_id, model)
         self.home_pos = pos
-        self.wealth = 10000  # 初始有10000块积蓄
-        self.relative_wealth = 500
+        self.wealth = 100  # 初始有100块积蓄
+        self.relative_wealth = 5
         self.employed = False  # 初始没有工作
         self.work_duration = 8  # 工作时长
         self.factory = None
@@ -31,8 +31,8 @@ class Worker(mesa.Agent):
         if self.model.schedule.steps % 30 != 0 and self.employed:
             return
 
-        if self.wealth > 15000:
-            logging.info(
+        if self.wealth > 1500:
+            logging.debug(
                 f"Worker {self.unique_id} is too rich to work, wealth: {self.wealth:.1f}"
             )
             if self.employed:
@@ -41,16 +41,15 @@ class Worker(mesa.Agent):
             return
         if not self.model.factory.hiring:
             if self.employed:
-                logging.info(f"Worker {self.unique_id} keep job.")
+                logging.debug(f"Worker {self.unique_id} keep job.")
                 return
             if not self.employed:
-                logging.info(f"Worker {self.unique_id} found no hiring factories")
+                logging.debug(f"Worker {self.unique_id} found no hiring factories")
                 return
             return
         self.employed = True
         self.factory = self.model.factory
         self.factory.workers.append(self)
-        self.factory.job_offer -= 1
         self.factory.hiring = self.factory.job_offer - len(self.factory.workers) > 0
 
     def work(self):
@@ -62,25 +61,24 @@ class Worker(mesa.Agent):
         self.work_duration = np.clip(self.work_duration, 4, 16)
 
         # 获得收入
-        income = self.work_duration * self.factory.wage
+        income = self.factory.wage
         self.wealth += income
 
-        # 健康变化
-        if self.work_duration > 12:
-            self.happiness -= 3
-        elif self.work_duration < 8:
-            self.happiness += 1
-
     def consume(self):
+        # 模拟必需品的消费，避免工厂不生产时，工人没有消费
+        self.wealth -= 3
         # 花钱购买产品 消费会增加Happiness
         price = self.model.market.prices
         self.relative_wealth = self.wealth / price
-        need = random.randint(1, 4)
+        need = random.randint(1, 3)
         if self.wealth - price * need >= 0 and self.model.factory.inventory > need:
-            self.wealth -= price
-            self.model.market.sell(1)
+            self.wealth -= price * need
+            self.model.market.sell(need)
+            self.model.factory.inventory -= need
+            self.model.factory.wealth += price * need
+            self.model.market.daily_sales += need
+            self.model.market.monthly_sales += need
             self.happiness += 5
-            self.last_consumption = self.model.schedule.steps
             logging.debug(
                 f"Worker {self.unique_id} bought product at price {price:.1f}"
             )
@@ -116,7 +114,7 @@ class Factory(mesa.Agent):
         self.hiring = True
         self.debt = 0
         self.wealth = 0
-        self.job_offer = 30
+        self.job_offer = 40
 
     def __str__(self):
         status = f"Production={self.production}, Workers={len(self.workers)}"
@@ -129,6 +127,7 @@ class Factory(mesa.Agent):
         return self.inventory / self.monthly_production
 
     def adjust_production(self):
+        self.wage = self.model.market.prices * 0.5
         if self.model.schedule.steps % 30 != 0:
             return
         self.last_monthly_production = self.monthly_production
@@ -139,15 +138,23 @@ class Factory(mesa.Agent):
         )
         adjustment = 0.5 + 0.6 * sold_ratio
 
-        if adjustment > 1:
+        if adjustment > 1.05:
             self.job_offer += 1
         elif adjustment < 0.9:
             self.job_offer -= 1
+            if self.job_offer < len(self.workers):
+                for _ in range(len(self.workers) - self.job_offer):
+                    worker = self.workers.pop()
+                    worker.employed = False
+                    worker.factory = None
         logging.info(
             f"Factory {self.unique_id} adjusted production ratio: {adjustment}  "
         )
 
     def produce(self):
+        if len(self.workers) == 0:
+            return
+        self.wealth -= 5 * self.job_offer + 100
         self.last_daily_production = self.daily_production
         self.daily_production = 0
         for worker in self.workers:
@@ -211,7 +218,7 @@ class Market(mesa.Agent):
     def __init__(self, unique_id, model):
         super().__init__(unique_id=unique_id, model=model)
         self.model = model
-        self.prices = 20
+        self.prices = 30
         self.min_price = 1
         self.monthly_sales = 0
         self.daily_sales = 0
@@ -225,13 +232,14 @@ class Market(mesa.Agent):
             self.prices *= 2
         else:
             balance = self.last_daily_sales / supply
-            self.prices *= 0.8 + 0.2 * balance
+            self.prices *= 0.8 + 0.2 * balance * 0.1
         self.prices = max(self.min_price, self.prices)
 
         logging.info(f"Market prices : {self.prices}")
 
     def sell(self, quantity):
         self.model.factory.inventory -= quantity
+        self.model.factory.wealth += quantity * self.prices
         self.daily_sales += quantity
         self.monthly_sales += quantity
 
