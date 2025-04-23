@@ -23,11 +23,11 @@ logging.basicConfig(
 class CrisisModel(mesa.Model):
     def __init__(self, N=5, width=20, height=20):
         super().__init__()
+        self.steps = 0
         self.num_workers = N
         # self.grid = mesa.space.MultiGrid(width, height, True)
         self.position_set = set()
         self.schedule = mesa.time.SimultaneousActivation(self)
-        self.current_step = 0
 
         logging.info("===== Initializing Economic Simulation =====")
 
@@ -37,8 +37,6 @@ class CrisisModel(mesa.Model):
 
         logging.info(f"Creating factory in {pos}")
         self.position_set.add(pos)
-
-        self.schedule.add(self.factory)
 
         # 创建工人
         self.workers = list(range(self.num_workers))
@@ -56,24 +54,17 @@ class CrisisModel(mesa.Model):
 
         # Create a government agent and a market
         self.gov = Government(10001, self)
-        self.schedule.add(self.gov)
         self.market = Market(10000, self)
-        self.schedule.add(self.market)
 
     def step(self):
-        self.current_step += 1
-        logging.info(f"\n=== Day {self.current_step} ===")
+        self.steps += 1
 
-        # 运行所有agent的step
+        logging.info(f"\n=== Day {self.steps} ===")
+
+        # 运行所有worker的step
         self.schedule.step()
-
-        # 更新工厂销售数据
-        for factory in self.factories:
-            if not factory.bankrupt:
-                sold = min(factory.inventory, self.market.demand[factory.product_type])
-                factory.inventory -= sold
-                factory.last_month_sales = sold
-
+        self.market.step()
+        self.factory.step()
         # 打印经济摘要
         self.print_summary()
 
@@ -86,19 +77,15 @@ class CrisisModel(mesa.Model):
             )
             / self.num_workers
         )
-        inventory = sum(self.factory.inventory)
-        gdp = sum(
-            f.production * (3 - f.product_type.value)
-            for f in self.factories
-            if not f.bankrupt
-        )
+        inventory = self.factory.inventory
+        f = self.factory
+        gdp = f.daily_production * self.market.prices
 
         logging.info(
             f"Economy Summary:\n"
             f"- Unemployment: {unemployment:.1%}\n"
-            f"- Inventory: {inventory:.1f} months\n"
+            f"- Inventory: {inventory:.1f} \n"
             f"- GDP: {gdp:.1f}\n"
-            f"- Bankrupt Factories: {sum(1 for f in self.factories if f.bankrupt)}/3"
         )
 
         # 检测经济周期阶段
@@ -114,7 +101,7 @@ class CrisisModel(mesa.Model):
 
 def run_simulation():
     model = CrisisModel(N=20)
-    for i in range(60):  # 模拟1年
+    for i in range(360):  # 模拟1年
         model.step()
 
 
